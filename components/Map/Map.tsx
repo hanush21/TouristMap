@@ -52,6 +52,7 @@ const Mapa: React.FC = () => {
       <PanelInfo 
         barrio={barrioSeleccionado} 
         onClose={handleClosePanel} 
+
       />
 
       {/* Mapa principal */}
