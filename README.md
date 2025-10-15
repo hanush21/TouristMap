@@ -2,6 +2,26 @@
 
 Una aplicación web interactiva para visualizar información turística de Barcelona con filtros avanzados y análisis de densidad por barrios.
 
+## ⚡ Instalación
+
+### Clona el repositorio
+
+git clone https://github.com/hanush21/TouristMap.git
+
+### Accede a la carpeta del proyecto
+
+cd TouristMap
+
+
+### Instala las dependencias
+
+npm i
+
+
+### Inicia la aplicación en modo desarrollo
+
+npm run dev
+
 ## 🚀 Características
 
 ### ✨ Funcionalidades Principales
