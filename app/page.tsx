@@ -32,7 +32,7 @@ export default function Home() {
           </p>
 
           <h1 className="text-5xl md:text-7xl font-light leading-tight tracking-tight">
-            Mapa Turístico BCN
+            Mapa Turístico
           </h1>
 
           <p className="mt-6 text-base md:text-lg text-muted-foreground leading-relaxed">
