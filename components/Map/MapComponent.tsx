@@ -5,6 +5,7 @@ import { MapContainer, TileLayer, Marker, Popup, useMap, Circle } from 'react-le
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import styles from './Map.module.css';
+import { mapAPI } from '../../lib/api';
 
 
 // Fix para los iconos de Leaflet en Next.js
@@ -102,6 +103,8 @@ function MapUpdater({ filters, sliderValue }: MapComponentProps) {
 const MapComponent: React.FC<MapComponentProps> = ({ filters, sliderValue }) => {
   const [isClient, setIsClient] = useState(false);
   const [barriosData, setBarriosData] = useState<BarrioData[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     setIsClient(true);
@@ -111,15 +114,14 @@ const MapComponent: React.FC<MapComponentProps> = ({ filters, sliderValue }) => 
 
   const loadBarriosData = async () => {
     try {
-      const response = await fetch('/data/coordenadas-barrios.json');
-      if (!response.ok) {
-        throw new Error(`Error al cargar datos de barrios: ${response.status}`);
-      }
-      const data = await response.json();
-      console.log('Datos de barrios cargados correctamente:', data.length, 'barrios');
-      setBarriosData(data);
+      setLoading(true);
+      setError(null);
+      const response = await mapAPI.getCoordinatesData();
+      console.log('Datos de barrios cargados correctamente:', response.data.length, 'barrios');
+      setBarriosData(response.data);
     } catch (error) {
       console.error('Error cargando datos de barrios:', error);
+      setError('Error al cargar los datos del mapa');
       // Datos de fallback en caso de error
       setBarriosData([
         {
@@ -133,6 +135,8 @@ const MapComponent: React.FC<MapComponentProps> = ({ filters, sliderValue }) => 
           puntos_interes: 12
         }
       ]);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -166,6 +170,22 @@ const MapComponent: React.FC<MapComponentProps> = ({ filters, sliderValue }) => 
     return (
       <div className="w-full h-full bg-gray-200 flex items-center justify-center">
         <div className="text-gray-500">Cargando mapa...</div>
+      </div>
+    );
+  }
+
+  if (loading) {
+    return (
+      <div className="w-full h-full bg-gray-200 flex items-center justify-center">
+        <div className="text-gray-500">Cargando datos del mapa...</div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="w-full h-full bg-gray-200 flex items-center justify-center">
+        <div className="text-red-500">{error}</div>
       </div>
     );
   }

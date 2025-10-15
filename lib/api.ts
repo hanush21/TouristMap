@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Configuración base de axios para la aplicación
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api',
+  baseURL: process.env.NEXT_PUBLIC_API_URL || '/api/backend',
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
@@ -43,6 +43,16 @@ export default api;
 
 // Funciones específicas para la API del mapa turístico
 export const mapAPI = {
+  // Obtener datos completos de turismo por barrios (reemplaza datosturismo.json)
+  getTourismData: () => {
+    return api.get('/neighborhoods/full-data');
+  },
+
+  // Obtener datos completos de coordenadas y métricas (reemplaza coordenadas-barrios.json)
+  getCoordinatesData: () => {
+    return api.get('/summary/full-data');
+  },
+
   // Obtener datos de puntos de interés
   getPointsOfInterest: (filters: any) => {
     return api.get('/points-of-interest', { params: filters });
