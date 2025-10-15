@@ -3,7 +3,6 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
 
 interface EquipoModalProps {
   isOpen: boolean;
@@ -14,55 +13,55 @@ interface TeamMember {
   id: string;
   nombre: string;
   rol: string;
-  descripcion: string;
-  especialidad: string[];
-  avatar?: string;
+  avatar: string;
+  link?: string;
 }
 
 const EquipoModal: React.FC<EquipoModalProps> = ({ isOpen, onClose }) => {
   const teamMembers: TeamMember[] = [
     {
       id: '1',
-      nombre: 'Ana García',
-      rol: 'Project Manager',
-      descripcion: 'Experta en gestión de proyectos turísticos y análisis de datos urbanos.',
-      especialidad: ['Gestión de Proyectos', 'Análisis de Datos', 'Turismo Sostenible']
+      nombre: 'Marc Guillem Palacios',
+      rol: 'Backend Developer',
+      avatar: 'https://media.licdn.com/dms/image/v2/D4E03AQGKMpt6zdxgOg/profile-displayphoto-scale_400_400/B4EZkVsV_LIIAo-/0/1757005570758?e=1763596800&v=beta&t=Id7oIwSNvWOZFkwSRnVDRuKK3nZkbRF0hwSzzOODJZQ',
+      link: 'https://www.linkedin.com/in/marc-g-p'
     },
     {
       id: '2',
-      nombre: 'Carlos Rodríguez',
-      rol: 'Desarrollador Frontend',
-      descripcion: 'Especialista en React, Next.js y desarrollo de interfaces de usuario.',
-      especialidad: ['React', 'Next.js', 'TypeScript', 'UI/UX']
+      nombre: 'Danilo Espinosa',
+      rol: 'Frontend Developer',
+      avatar: 'https://media.licdn.com/dms/image/v2/D4D35AQELjccFEimaQw/profile-framedphoto-shrink_800_800/B4DZlSKtabJcAg-/0/1758020163596?e=1761166800&v=beta&t=A_7397b4EC8znfRLM1XwEAvOM-dNHT2cgTjHQGPotvg',
+      link: 'https://www.linkedin.com/in/danilo-espinosa-web/'
     },
-    {
+     {
       id: '3',
-      nombre: 'María López',
-      rol: 'Desarrolladora Backend',
-      descripcion: 'Experta en arquitectura de sistemas y APIs para aplicaciones de mapas.',
-      especialidad: ['Node.js', 'Python', 'APIs REST', 'Bases de Datos']
+      nombre: 'Cristiana Sollini',
+      rol: 'Frontend Developer',
+      avatar: 'https://media.licdn.com/dms/image/v2/D4D03AQE4gfdcPqmjDQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726168728776?e=1763596800&v=beta&t=7mPTu-COIitZA71EuV8zgKpXGbrAZqK2KLIRMUEjjes',
+      link: 'https://www.linkedin.com/in/cristianasollini/'
     },
-    {
+     {
       id: '4',
-      nombre: 'David Martínez',
-      rol: 'Especialista en GIS',
-      descripcion: 'Experto en sistemas de información geográfica y análisis espacial.',
-      especialidad: ['GIS', 'Leaflet', 'Análisis Espacial', 'Cartografía']
+      nombre: 'Albert Grau',
+      rol: 'Backend Developer',
+      avatar: 'https://avatars.githubusercontent.com/u/146814602?v=4',
+      link: 'https://github.com/AlbertGrauL'
     },
     {
       id: '5',
-      nombre: 'Laura Fernández',
-      rol: 'Diseñadora UX/UI',
-      descripcion: 'Especialista en diseño centrado en el usuario y experiencia móvil.',
-      especialidad: ['Diseño UX', 'Figma', 'Prototipado', 'Design System']
+      nombre: 'Luis Ricardo Gutiérrez Soliz',
+      rol: 'Backend Developer',
+      avatar: 'https://media.licdn.com/dms/image/v2/D4E35AQEhg8HBmuUCgQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1680953306303?e=1761170400&v=beta&t=rT3nAG1rsYzRSRBS4drg6VW9wvZE7VzqPEfGaadbXJs',
+      link: 'https://www.linkedin.com/in/luis-ricardo-guti%C3%A9rrez-soliz/'
     },
     {
       id: '6',
-      nombre: 'Javier Ruiz',
-      rol: 'Analista de Datos',
-      descripcion: 'Experto en análisis de datos turísticos y patrones de movilidad urbana.',
-      especialidad: ['Python', 'Machine Learning', 'Análisis Estadístico', 'Visualización']
-    }
+      nombre: 'Richard Hernández Montero',
+      rol: 'Frontend Developer',
+      avatar: 'https://media.licdn.com/dms/image/v2/D4D03AQHjIXnqRCqBvQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713959457616?e=1763596800&v=beta&t=bSzKu1BAFBYM0xcP7bv6ow3jk3IcqolfOWCBoCKzIXk',
+      link: 'https://www.linkedin.com/in/richard-hernandez21/'
+    },
+    // ... otros miembros
   ];
 
   const projectInfo = {
@@ -84,21 +83,21 @@ const EquipoModal: React.FC<EquipoModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/50 bg-opacity-50 flex items-center justify-center z-[100] p-4 modal-backdrop">
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-[100] p-4" onClick={onClose} >
       <Card className="w-full max-w-4xl max-h-[90vh] overflow-y-auto">
-        <CardHeader className="flex flex-row items-center justify-between">
+        <CardHeader className="flex items-center justify-between">
           <CardTitle className="text-2xl font-bold">Sobre Nosotros</CardTitle>
           <Button variant="outline" onClick={onClose}>
             ✕
           </Button>
         </CardHeader>
-        
+
         <CardContent className="space-y-8">
           {/* Información del proyecto */}
           <div>
             <h2 className="text-xl font-semibold mb-4">{projectInfo.nombre}</h2>
             <p className="text-gray-600 mb-4">{projectInfo.descripcion}</p>
-            
+
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-lg font-semibold mb-3">Objetivos del Proyecto</h3>
@@ -111,14 +110,17 @@ const EquipoModal: React.FC<EquipoModalProps> = ({ isOpen, onClose }) => {
                   ))}
                 </ul>
               </div>
-              
+
               <div>
                 <h3 className="text-lg font-semibold mb-3">Tecnologías Utilizadas</h3>
                 <div className="flex flex-wrap gap-2">
                   {projectInfo.tecnologias.map((tech, index) => (
-                    <Badge key={index} variant="secondary" className="text-xs">
+                    <span
+                      key={index}
+                      className="bg-gray-200 text-gray-800 px-2 py-1 rounded text-xs"
+                    >
                       {tech}
-                    </Badge>
+                    </span>
                   ))}
                 </div>
               </div>
@@ -130,24 +132,24 @@ const EquipoModal: React.FC<EquipoModalProps> = ({ isOpen, onClose }) => {
             <h2 className="text-xl font-semibold mb-6">Nuestro Equipo</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {teamMembers.map((member) => (
-                <Card key={member.id} className="p-4">
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                      <span className="text-2xl font-bold text-blue-600">
-                        {member.nombre.split(' ').map(n => n[0]).join('')}
-                      </span>
-                    </div>
-                    <h3 className="font-semibold text-lg">{member.nombre}</h3>
-                    <p className="text-blue-600 text-sm font-medium mb-2">{member.rol}</p>
-                    <p className="text-gray-600 text-sm mb-3">{member.descripcion}</p>
-                    <div className="flex flex-wrap gap-1 justify-center">
-                      {member.especialidad.map((skill, index) => (
-                        <Badge key={index} variant="outline" className="text-xs">
-                          {skill}
-                        </Badge>
-                      ))}
-                    </div>
-                  </div>
+                <Card key={member.id} className="p-4 flex flex-col items-center text-center hover:bg-blue-50 transition">
+                  {member.link ? (
+                    <a href={member.link} target="_blank" rel="noopener noreferrer">
+                      <img
+                        src={member.avatar}
+                        alt={member.nombre}
+                        className="w-16 h-16 rounded-full mb-2 object-cover border border-gray-200 shadow-sm"
+                      />
+                    </a>
+                  ) : (
+                    <img
+                      src={member.avatar}
+                      alt={member.nombre}
+                      className="w-16 h-16 rounded-full mb-2 object-cover border border-gray-200 shadow-sm"
+                    />
+                  )}
+                  <h3 className="font-semibold text-gray-800 text-sm">{member.nombre}</h3>
+                  <p className="text-blue-600 text-xs font-medium">{member.rol}</p>
                 </Card>
               ))}
             </div>
@@ -170,30 +172,11 @@ const EquipoModal: React.FC<EquipoModalProps> = ({ isOpen, onClose }) => {
             </div>
           </div>
 
-          {/* Contacto */}
-          <div className="text-center">
-            <h3 className="text-lg font-semibold mb-3">¿Tienes preguntas?</h3>
-            <p className="text-gray-600 mb-4">
-              Estamos siempre abiertos a sugerencias y mejoras para hacer de esta plataforma una herramienta más útil para todos.
-            </p>
-            <div className="flex justify-center space-x-4">
-              <Button variant="outline" size="sm">
-                Contactar Equipo
-              </Button>
-              <Button variant="outline" size="sm">
-                Reportar Bug
-              </Button>
-              <Button variant="outline" size="sm">
-                Sugerir Mejora
-              </Button>
-            </div>
-          </div>
+         
 
           {/* Botón de cierre */}
           <div className="flex justify-end pt-4 border-t">
-            <Button onClick={onClose}>
-              Cerrar
-            </Button>
+            <Button onClick={onClose}>Cerrar</Button>
           </div>
         </CardContent>
       </Card>
