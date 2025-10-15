@@ -160,7 +160,7 @@ const CompararModal: React.FC<CompararModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/50 bg-opacity-50 flex items-center justify-center z-[100] p-4 modal-backdrop">
+    <div className="fixed inset-0 bg-black/50 bg-opacity-50 flex items-center justify-center z-[100] p-4 modal-backdrop" onClick={onClose} >
       <Card className="w-full max-w-6xl max-h-[90vh] overflow-y-auto">
         <CardHeader className="flex flex-row items-center justify-between">
           <CardTitle className="text-2xl font-bold">Comparar Barrios</CardTitle>
