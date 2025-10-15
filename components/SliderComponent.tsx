@@ -65,9 +65,9 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
       
       {/* Valor actual */}
       <div className="flex justify-between text-xs text-gray-500 mt-1">
-        <span>{min}</span>
+        <span>Menor densidad</span>
         <span className="font-medium text-blue-600">{value}</span>
-        <span>{max}</span>
+        <span>Mayor densidad</span>
       </div>
     </div>
   );
