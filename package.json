@@ -28,13 +28,18 @@
     "rc-slider": "^11.1.9",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+<<<<<<< HEAD
     "react-hook-form": "^7.65.0",
+=======
+    "react-leaflet": "^5.0.0",
+>>>>>>> main
     "tailwind-merge": "^3.3.1",
     "zod": "^4.1.12"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/leaflet": "^1.9.21",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

@@ -1,7 +1,12 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+<<<<<<< HEAD
   "/api/sendForms/route": "app/api/sendForms/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/forms/page": "app/forms/page.js",
+=======
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/map/page": "app/map/page.js",
+>>>>>>> main
   "/page": "app/page.js"
 }
