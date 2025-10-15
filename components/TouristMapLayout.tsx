@@ -24,12 +24,12 @@ const MapComponent = dynamic(() => import('./Map/MapComponent'), {
 
 interface Filters {
   hoteles: boolean;
-  transporte: boolean;
+
   nivelRuido: boolean;
-  densidadHabitantes: boolean;
+
   densidadTuristas: boolean;
-  densidadTransporte: boolean;
-  contaminacionSonora: boolean;
+  transporte: boolean;
+
 }
 
 // ================= ValorarModal (NUEVO) =================
@@ -69,10 +69,8 @@ const TouristMapLayout: React.FC = () => {
     hoteles: false,
     transporte: false,
     nivelRuido: false,
-    densidadHabitantes: false,
     densidadTuristas: false,
-    densidadTransporte: false,
-    contaminacionSonora: false
+
   });
 
   const [sliderValue, setSliderValue] = useState(50);
