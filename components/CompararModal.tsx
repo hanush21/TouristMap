@@ -76,8 +76,8 @@ const CompararModal: React.FC<CompararModalProps> = ({ isOpen, onClose }) => {
   const loadBarriosData = async () => {
     try {
       const [turismoResponse, coordenadasResponse] = await Promise.all([
-        fetch('/data/datosturismo.json'),
-        fetch('/data/coordenadas-barrios.json')
+        fetch('../data/datosturismo.json'),
+        fetch('../data/coordenadas-barrios.json')
       ]);
       
       if (!turismoResponse.ok || !coordenadasResponse.ok) {
