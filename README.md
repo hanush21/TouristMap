@@ -64,8 +64,6 @@ TouristMap/
 │   ├── EquipoModal.tsx
 │   └── TouristMapLayout.tsx
 ├── data/
-│   ├── datosturismo.json
-│   ├── coordenadas-barrios.json
 │   └── transporte-barrios.json
 ├── lib/
 │   ├── utils.ts
@@ -120,9 +118,10 @@ npm run dev
 ## 📊 Datos y Métricas
 
 ### Fuentes de Datos
-- **datosturismo.json**: Datos oficiales de turismo por barrio
-- **coordenadas-barrios.json**: Ubicaciones y métricas adicionales
-- **transporte-barrios.json**: Información de transporte público
+- **API Backend**: Datos dinámicos de turismo y coordenadas desde `http://localhost:8080/api`
+  - `/neighborhoods/full-data`: Datos completos de turismo por barrio
+  - `/summary/full-data`: Ubicaciones y métricas adicionales
+- **transporte-barrios.json**: Información de transporte público (archivo estático)
 
 ### Métricas Calculadas
 - **Densidad Turística**: Basada en puntos de interés y datos oficiales
@@ -134,13 +133,13 @@ npm run dev
 
 ### Variables de Entorno
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:3001/api
+NEXT_PUBLIC_API_URL=http://localhost:8080/api
 ```
 
 ### Personalización
 - **Colores del Mapa**: Modifica `getHeatmapColor()` en `MapComponent.tsx`
 - **Filtros**: Agrega nuevos filtros en `TouristMapLayout.tsx`
-- **Datos**: Actualiza archivos JSON en `/data`
+- **Datos**: Los datos principales ahora vienen de APIs dinámicas
 
 ## 🤝 Contribución
 
