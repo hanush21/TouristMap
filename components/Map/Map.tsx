@@ -49,7 +49,7 @@ const Mapa: React.FC = () => {
 
   return (
     <div className={styles.mapWrapper}>
-   
+      {/* Panel lateral */}
       {/* <PanelInfo 
         barrio={barrioSeleccionado} 
         onClose={handleClosePanel} 
@@ -81,7 +81,7 @@ const Mapa: React.FC = () => {
               fillColor={color}
               color="white"
               weight={2}
-              fillOpacity={0.5}
+              fillOpacity={0.6}
               eventHandlers={{
                 click: () => handleCircleClick(barrio),
                 mouseover: (e) => {
