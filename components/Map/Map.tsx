@@ -3,7 +3,7 @@
 import { MapContainer, TileLayer, CircleMarker } from 'react-leaflet';
 import { useState } from 'react';
 import styles from './Map.module.css';
-import PanelInfo from '../PanelInfo/Panelinfo';
+//import PanelInfo from '../PanelInfo/Panelinfo';
 import DiaSlider from '../DiaSlider/DiaSlider';
 import Legend from '../Legend/Legend';
 import { datosPoblacionPorDia, DatosPoblacionItem } from '../../lib/data/datostest';
@@ -36,7 +36,7 @@ const Mapa: React.FC = () => {
   };
 
   const handleCircleClick = (barrio: Barrio): void => {
-    setBarrioSeleccionado(barrio);
+    //setBarrioSeleccionado(barrio);
   };
 
   const handleClosePanel = (): void => {
@@ -50,11 +50,11 @@ const Mapa: React.FC = () => {
   return (
     <div className={styles.mapWrapper}>
       {/* Panel lateral */}
-      <PanelInfo 
+      {/* <PanelInfo 
         barrio={barrioSeleccionado} 
         onClose={handleClosePanel} 
 
-      />
+      /> */}
 
       {/* Mapa principal */}
       <MapContainer
@@ -81,7 +81,7 @@ const Mapa: React.FC = () => {
               fillColor={color}
               color="white"
               weight={2}
-              fillOpacity={0.5}
+              fillOpacity={0.6}
               eventHandlers={{
                 click: () => handleCircleClick(barrio),
                 mouseover: (e) => {

@@ -1,0 +1,2738 @@
+[
+  {
+    "codi_barri": "01-1",
+    "nom_barri": "El Raval",
+    "codi_districte": "01",
+    "nom_districte": "Ciutat Vella",
+    "poblacio_2024": 49120,
+    "densitat_hab_km2": 33100,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 165000,
+        "febrer": 178000,
+        "març": 220000,
+        "abril": 265000,
+        "maig": 305000,
+        "juny": 330000,
+        "juliol": 380000,
+        "agost": 410000,
+        "setembre": 325000,
+        "octubre": 280000,
+        "novembre": 195000,
+        "desembre": 245000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "18.5%",
+        "febrer": "19.0%",
+        "març": "18.0%",
+        "abril": "16.5%",
+        "maig": "15.0%",
+        "juny": "14.0%",
+        "juliol": "14.5%",
+        "agost": "16.0%",
+        "setembre": "17.0%",
+        "octubre": "17.5%",
+        "novembre": "18.0%",
+        "desembre": "17.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "01-2",
+    "nom_barri": "El Gòtic",
+    "codi_districte": "01",
+    "nom_districte": "Ciutat Vella",
+    "poblacio_2024": 15890,
+    "densitat_hab_km2": 25500,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 165000,
+        "febrer": 178000,
+        "març": 220000,
+        "abril": 265000,
+        "maig": 305000,
+        "juny": 330000,
+        "juliol": 380000,
+        "agost": 410000,
+        "setembre": 325000,
+        "octubre": 280000,
+        "novembre": 195000,
+        "desembre": 245000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "18.5%",
+        "febrer": "19.0%",
+        "març": "18.0%",
+        "abril": "16.5%",
+        "maig": "15.0%",
+        "juny": "14.0%",
+        "juliol": "14.5%",
+        "agost": "16.0%",
+        "setembre": "17.0%",
+        "octubre": "17.5%",
+        "novembre": "18.0%",
+        "desembre": "17.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "01-3",
+    "nom_barri": "La Barceloneta",
+    "codi_districte": "01",
+    "nom_districte": "Ciutat Vella",
+    "poblacio_2024": 14950,
+    "densitat_hab_km2": 22500,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 165000,
+        "febrer": 178000,
+        "març": 220000,
+        "abril": 265000,
+        "maig": 305000,
+        "juny": 330000,
+        "juliol": 380000,
+        "agost": 410000,
+        "setembre": 325000,
+        "octubre": 280000,
+        "novembre": 195000,
+        "desembre": 245000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "18.5%",
+        "febrer": "19.0%",
+        "març": "18.0%",
+        "abril": "16.5%",
+        "maig": "15.0%",
+        "juny": "14.0%",
+        "juliol": "14.5%",
+        "agost": "16.0%",
+        "setembre": "17.0%",
+        "octubre": "17.5%",
+        "novembre": "18.0%",
+        "desembre": "17.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "01-4",
+    "nom_barri": "Sant Pere, Santa Caterina i la Ribera",
+    "codi_districte": "01",
+    "nom_districte": "Ciutat Vella",
+    "poblacio_2024": 22350,
+    "densitat_hab_km2": 21000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 165000,
+        "febrer": 178000,
+        "març": 220000,
+        "abril": 265000,
+        "maig": 305000,
+        "juny": 330000,
+        "juliol": 380000,
+        "agost": 410000,
+        "setembre": 325000,
+        "octubre": 280000,
+        "novembre": 195000,
+        "desembre": 245000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "18.5%",
+        "febrer": "19.0%",
+        "març": "18.0%",
+        "abril": "16.5%",
+        "maig": "15.0%",
+        "juny": "14.0%",
+        "juliol": "14.5%",
+        "agost": "16.0%",
+        "setembre": "17.0%",
+        "octubre": "17.5%",
+        "novembre": "18.0%",
+        "desembre": "17.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "02-5",
+    "nom_barri": "L'Antiga Esquerra de l'Eixample",
+    "codi_districte": "02",
+    "nom_districte": "Eixample",
+    "poblacio_2024": 42500,
+    "densitat_hab_km2": 26100,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 95000,
+        "febrer": 105000,
+        "març": 135000,
+        "abril": 160000,
+        "maig": 190000,
+        "juny": 215000,
+        "juliol": 250000,
+        "agost": 260000,
+        "setembre": 210000,
+        "octubre": 175000,
+        "novembre": 110000,
+        "desembre": 140000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "10.0%",
+        "febrer": "11.0%",
+        "març": "12.5%",
+        "abril": "12.0%",
+        "maig": "11.5%",
+        "juny": "10.0%",
+        "juliol": "9.5%",
+        "agost": "9.0%",
+        "setembre": "10.5%",
+        "octubre": "11.0%",
+        "novembre": "10.5%",
+        "desembre": "10.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "02-6",
+    "nom_barri": "La Nova Esquerra de l'Eixample",
+    "codi_districte": "02",
+    "nom_districte": "Eixample",
+    "poblacio_2024": 65200,
+    "densitat_hab_km2": 32500,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 95000,
+        "febrer": 105000,
+        "març": 135000,
+        "abril": 160000,
+        "maig": 190000,
+        "juny": 215000,
+        "juliol": 250000,
+        "agost": 260000,
+        "setembre": 210000,
+        "octubre": 175000,
+        "novembre": 110000,
+        "desembre": 140000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "10.0%",
+        "febrer": "11.0%",
+        "març": "12.5%",
+        "abril": "12.0%",
+        "maig": "11.5%",
+        "juny": "10.0%",
+        "juliol": "9.5%",
+        "agost": "9.0%",
+        "setembre": "10.5%",
+        "octubre": "11.0%",
+        "novembre": "10.5%",
+        "desembre": "10.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "02-7",
+    "nom_barri": "Dreta de l'Eixample",
+    "codi_districte": "02",
+    "nom_districte": "Eixample",
+    "poblacio_2024": 44550,
+    "densitat_hab_km2": 23000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 95000,
+        "febrer": 105000,
+        "març": 135000,
+        "abril": 160000,
+        "maig": 190000,
+        "juny": 215000,
+        "juliol": 250000,
+        "agost": 260000,
+        "setembre": 210000,
+        "octubre": 175000,
+        "novembre": 110000,
+        "desembre": 140000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "10.0%",
+        "febrer": "11.0%",
+        "març": "12.5%",
+        "abril": "12.0%",
+        "maig": "11.5%",
+        "juny": "10.0%",
+        "juliol": "9.5%",
+        "agost": "9.0%",
+        "setembre": "10.5%",
+        "octubre": "11.0%",
+        "novembre": "10.5%",
+        "desembre": "10.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "02-8",
+    "nom_barri": "La Sagrada Família",
+    "codi_districte": "02",
+    "nom_districte": "Eixample",
+    "poblacio_2024": 52100,
+    "densitat_hab_km2": 24000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 95000,
+        "febrer": 105000,
+        "març": 135000,
+        "abril": 160000,
+        "maig": 190000,
+        "juny": 215000,
+        "juliol": 250000,
+        "agost": 260000,
+        "setembre": 210000,
+        "octubre": 175000,
+        "novembre": 110000,
+        "desembre": 140000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "10.0%",
+        "febrer": "11.0%",
+        "març": "12.5%",
+        "abril": "12.0%",
+        "maig": "11.5%",
+        "juny": "10.0%",
+        "juliol": "9.5%",
+        "agost": "9.0%",
+        "setembre": "10.5%",
+        "octubre": "11.0%",
+        "novembre": "10.5%",
+        "desembre": "10.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "02-9",
+    "nom_barri": "Sant Antoni",
+    "codi_districte": "02",
+    "nom_districte": "Eixample",
+    "poblacio_2024": 40300,
+    "densitat_hab_km2": 27500,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 95000,
+        "febrer": 105000,
+        "març": 135000,
+        "abril": 160000,
+        "maig": 190000,
+        "juny": 215000,
+        "juliol": 250000,
+        "agost": 260000,
+        "setembre": 210000,
+        "octubre": 175000,
+        "novembre": 110000,
+        "desembre": 140000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "10.0%",
+        "febrer": "11.0%",
+        "març": "12.5%",
+        "abril": "12.0%",
+        "maig": "11.5%",
+        "juny": "10.0%",
+        "juliol": "9.5%",
+        "agost": "9.0%",
+        "setembre": "10.5%",
+        "octubre": "11.0%",
+        "novembre": "10.5%",
+        "desembre": "10.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "02-10",
+    "nom_barri": "Fort Pienc",
+    "codi_districte": "02",
+    "nom_districte": "Eixample",
+    "poblacio_2024": 30800,
+    "densitat_hab_km2": 22000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 95000,
+        "febrer": 105000,
+        "març": 135000,
+        "abril": 160000,
+        "maig": 190000,
+        "juny": 215000,
+        "juliol": 250000,
+        "agost": 260000,
+        "setembre": 210000,
+        "octubre": 175000,
+        "novembre": 110000,
+        "desembre": 140000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "10.0%",
+        "febrer": "11.0%",
+        "març": "12.5%",
+        "abril": "12.0%",
+        "maig": "11.5%",
+        "juny": "10.0%",
+        "juliol": "9.5%",
+        "agost": "9.0%",
+        "setembre": "10.5%",
+        "octubre": "11.0%",
+        "novembre": "10.5%",
+        "desembre": "10.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "03-11",
+    "nom_barri": "Poble Sec",
+    "codi_districte": "03",
+    "nom_districte": "Sants-Montjuïc",
+    "poblacio_2024": 40500,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 60000,
+        "febrer": 65000,
+        "març": 80000,
+        "abril": 95000,
+        "maig": 110000,
+        "juny": 125000,
+        "juliol": 140000,
+        "agost": 135000,
+        "setembre": 100000,
+        "octubre": 85000,
+        "novembre": 65000,
+        "desembre": 75000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "6.5%",
+        "febrer": "6.8%",
+        "març": "7.0%",
+        "abril": "6.5%",
+        "maig": "6.0%",
+        "juny": "5.5%",
+        "juliol": "5.0%",
+        "agost": "5.5%",
+        "setembre": "6.0%",
+        "octubre": "6.5%",
+        "novembre": "6.8%",
+        "desembre": "6.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "03-12",
+    "nom_barri": "La Marina del Prat Vermell",
+    "codi_districte": "03",
+    "nom_districte": "Sants-Montjuïc",
+    "poblacio_2024": 1500,
+    "densitat_hab_km2": 2500,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 60000,
+        "febrer": 65000,
+        "març": 80000,
+        "abril": 95000,
+        "maig": 110000,
+        "juny": 125000,
+        "juliol": 140000,
+        "agost": 135000,
+        "setembre": 100000,
+        "octubre": 85000,
+        "novembre": 65000,
+        "desembre": 75000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "6.5%",
+        "febrer": "6.8%",
+        "març": "7.0%",
+        "abril": "6.5%",
+        "maig": "6.0%",
+        "juny": "5.5%",
+        "juliol": "5.0%",
+        "agost": "5.5%",
+        "setembre": "6.0%",
+        "octubre": "6.5%",
+        "novembre": "6.8%",
+        "desembre": "6.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "03-13",
+    "nom_barri": "La Marina de Port",
+    "codi_districte": "03",
+    "nom_districte": "Sants-Montjuïc",
+    "poblacio_2024": 30500,
+    "densitat_hab_km2": 18000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 60000,
+        "febrer": 65000,
+        "març": 80000,
+        "abril": 95000,
+        "maig": 110000,
+        "juny": 125000,
+        "juliol": 140000,
+        "agost": 135000,
+        "setembre": 100000,
+        "octubre": 85000,
+        "novembre": 65000,
+        "desembre": 75000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "6.5%",
+        "febrer": "6.8%",
+        "març": "7.0%",
+        "abril": "6.5%",
+        "maig": "6.0%",
+        "juny": "5.5%",
+        "juliol": "5.0%",
+        "agost": "5.5%",
+        "setembre": "6.0%",
+        "octubre": "6.5%",
+        "novembre": "6.8%",
+        "desembre": "6.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "03-14",
+    "nom_barri": "La Font de la Guatlla",
+    "codi_districte": "03",
+    "nom_districte": "Sants-Montjuïc",
+    "poblacio_2024": 10200,
+    "densitat_hab_km2": 21000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 60000,
+        "febrer": 65000,
+        "març": 80000,
+        "abril": 95000,
+        "maig": 110000,
+        "juny": 125000,
+        "juliol": 140000,
+        "agost": 135000,
+        "setembre": 100000,
+        "octubre": 85000,
+        "novembre": 65000,
+        "desembre": 75000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "6.5%",
+        "febrer": "6.8%",
+        "març": "7.0%",
+        "abril": "6.5%",
+        "maig": "6.0%",
+        "juny": "5.5%",
+        "juliol": "5.0%",
+        "agost": "5.5%",
+        "setembre": "6.0%",
+        "octubre": "6.5%",
+        "novembre": "6.8%",
+        "desembre": "6.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "03-15",
+    "nom_barri": "Hostafrancs",
+    "codi_districte": "03",
+    "nom_districte": "Sants-Montjuïc",
+    "poblacio_2024": 15800,
+    "densitat_hab_km2": 31000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 60000,
+        "febrer": 65000,
+        "març": 80000,
+        "abril": 95000,
+        "maig": 110000,
+        "juny": 125000,
+        "juliol": 140000,
+        "agost": 135000,
+        "setembre": 100000,
+        "octubre": 85000,
+        "novembre": 65000,
+        "desembre": 75000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "6.5%",
+        "febrer": "6.8%",
+        "març": "7.0%",
+        "abril": "6.5%",
+        "maig": "6.0%",
+        "juny": "5.5%",
+        "juliol": "5.0%",
+        "agost": "5.5%",
+        "setembre": "6.0%",
+        "octubre": "6.5%",
+        "novembre": "6.8%",
+        "desembre": "6.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "03-16",
+    "nom_barri": "La Bordeta",
+    "codi_districte": "03",
+    "nom_districte": "Sants-Montjuïc",
+    "poblacio_2024": 19500,
+    "densitat_hab_km2": 26000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 60000,
+        "febrer": 65000,
+        "març": 80000,
+        "abril": 95000,
+        "maig": 110000,
+        "juny": 125000,
+        "juliol": 140000,
+        "agost": 135000,
+        "setembre": 100000,
+        "octubre": 85000,
+        "novembre": 65000,
+        "desembre": 75000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "6.5%",
+        "febrer": "6.8%",
+        "març": "7.0%",
+        "abril": "6.5%",
+        "maig": "6.0%",
+        "juny": "5.5%",
+        "juliol": "5.0%",
+        "agost": "5.5%",
+        "setembre": "6.0%",
+        "octubre": "6.5%",
+        "novembre": "6.8%",
+        "desembre": "6.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "03-17",
+    "nom_barri": "Sants",
+    "codi_districte": "03",
+    "nom_districte": "Sants-Montjuïc",
+    "poblacio_2024": 43500,
+    "densitat_hab_km2": 28000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 60000,
+        "febrer": 65000,
+        "març": 80000,
+        "abril": 95000,
+        "maig": 110000,
+        "juny": 125000,
+        "juliol": 140000,
+        "agost": 135000,
+        "setembre": 100000,
+        "octubre": 85000,
+        "novembre": 65000,
+        "desembre": 75000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "6.5%",
+        "febrer": "6.8%",
+        "març": "7.0%",
+        "abril": "6.5%",
+        "maig": "6.0%",
+        "juny": "5.5%",
+        "juliol": "5.0%",
+        "agost": "5.5%",
+        "setembre": "6.0%",
+        "octubre": "6.5%",
+        "novembre": "6.8%",
+        "desembre": "6.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "03-18",
+    "nom_barri": "Sants-Badal",
+    "codi_districte": "03",
+    "nom_districte": "Sants-Montjuïc",
+    "poblacio_2024": 25100,
+    "densitat_hab_km2": 32000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 60000,
+        "febrer": 65000,
+        "març": 80000,
+        "abril": 95000,
+        "maig": 110000,
+        "juny": 125000,
+        "juliol": 140000,
+        "agost": 135000,
+        "setembre": 100000,
+        "octubre": 85000,
+        "novembre": 65000,
+        "desembre": 75000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "6.5%",
+        "febrer": "6.8%",
+        "març": "7.0%",
+        "abril": "6.5%",
+        "maig": "6.0%",
+        "juny": "5.5%",
+        "juliol": "5.0%",
+        "agost": "5.5%",
+        "setembre": "6.0%",
+        "octubre": "6.5%",
+        "novembre": "6.8%",
+        "desembre": "6.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "04-19",
+    "nom_barri": "Les Corts",
+    "codi_districte": "04",
+    "nom_districte": "Les Corts",
+    "poblacio_2024": 46000,
+    "densitat_hab_km2": 19000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 55000,
+        "febrer": 60000,
+        "març": 75000,
+        "abril": 85000,
+        "maig": 100000,
+        "juny": 110000,
+        "juliol": 120000,
+        "agost": 115000,
+        "setembre": 90000,
+        "octubre": 75000,
+        "novembre": 58000,
+        "desembre": 65000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "5.0%",
+        "febrer": "5.5%",
+        "març": "5.0%",
+        "abril": "4.5%",
+        "maig": "4.0%",
+        "juny": "4.0%",
+        "juliol": "4.5%",
+        "agost": "5.0%",
+        "setembre": "5.0%",
+        "octubre": "4.5%",
+        "novembre": "5.0%",
+        "desembre": "4.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "04-20",
+    "nom_barri": "La Maternitat i Sant Ramon",
+    "codi_districte": "04",
+    "nom_districte": "Les Corts",
+    "poblacio_2024": 15900,
+    "densitat_hab_km2": 22000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 55000,
+        "febrer": 60000,
+        "març": 75000,
+        "abril": 85000,
+        "maig": 100000,
+        "juny": 110000,
+        "juliol": 120000,
+        "agost": 115000,
+        "setembre": 90000,
+        "octubre": 75000,
+        "novembre": 58000,
+        "desembre": 65000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "5.0%",
+        "febrer": "5.5%",
+        "març": "5.0%",
+        "abril": "4.5%",
+        "maig": "4.0%",
+        "juny": "4.0%",
+        "juliol": "4.5%",
+        "agost": "5.0%",
+        "setembre": "5.0%",
+        "octubre": "4.5%",
+        "novembre": "5.0%",
+        "desembre": "4.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "04-21",
+    "nom_barri": "Pedralbes",
+    "codi_districte": "04",
+    "nom_districte": "Les Corts",
+    "poblacio_2024": 11200,
+    "densitat_hab_km2": 4500,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 55000,
+        "febrer": 60000,
+        "març": 75000,
+        "abril": 85000,
+        "maig": 100000,
+        "juny": 110000,
+        "juliol": 120000,
+        "agost": 115000,
+        "setembre": 90000,
+        "octubre": 75000,
+        "novembre": 58000,
+        "desembre": 65000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "5.0%",
+        "febrer": "5.5%",
+        "març": "5.0%",
+        "abril": "4.5%",
+        "maig": "4.0%",
+        "juny": "4.0%",
+        "juliol": "4.5%",
+        "agost": "5.0%",
+        "setembre": "5.0%",
+        "octubre": "4.5%",
+        "novembre": "5.0%",
+        "desembre": "4.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "05-22",
+    "nom_barri": "Vallvidrera, el Tibidabo i les Planes",
+    "codi_districte": "05",
+    "nom_districte": "Sarrià-Sant Gervasi",
+    "poblacio_2024": 4350,
+    "densitat_hab_km2": 250,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 45000,
+        "febrer": 50000,
+        "març": 65000,
+        "abril": 75000,
+        "maig": 85000,
+        "juny": 90000,
+        "juliol": 95000,
+        "agost": 90000,
+        "setembre": 70000,
+        "octubre": 60000,
+        "novembre": 48000,
+        "desembre": 55000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "4.5%",
+        "febrer": "4.8%",
+        "març": "4.2%",
+        "abril": "4.0%",
+        "maig": "3.5%",
+        "juny": "3.0%",
+        "juliol": "3.5%",
+        "agost": "4.0%",
+        "setembre": "4.2%",
+        "octubre": "4.5%",
+        "novembre": "4.8%",
+        "desembre": "4.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "05-23",
+    "nom_barri": "Sarrià",
+    "codi_districte": "05",
+    "nom_districte": "Sarrià-Sant Gervasi",
+    "poblacio_2024": 24200,
+    "densitat_hab_km2": 10000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 45000,
+        "febrer": 50000,
+        "març": 65000,
+        "abril": 75000,
+        "maig": 85000,
+        "juny": 90000,
+        "juliol": 95000,
+        "agost": 90000,
+        "setembre": 70000,
+        "octubre": 60000,
+        "novembre": 48000,
+        "desembre": 55000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "4.5%",
+        "febrer": "4.8%",
+        "març": "4.2%",
+        "abril": "4.0%",
+        "maig": "3.5%",
+        "juny": "3.0%",
+        "juliol": "3.5%",
+        "agost": "4.0%",
+        "setembre": "4.2%",
+        "octubre": "4.5%",
+        "novembre": "4.8%",
+        "desembre": "4.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "05-24",
+    "nom_barri": "Les Tres Torres",
+    "codi_districte": "05",
+    "nom_districte": "Sarrià-Sant Gervasi",
+    "poblacio_2024": 16500,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 45000,
+        "febrer": 50000,
+        "març": 65000,
+        "abril": 75000,
+        "maig": 85000,
+        "juny": 90000,
+        "juliol": 95000,
+        "agost": 90000,
+        "setembre": 70000,
+        "octubre": 60000,
+        "novembre": 48000,
+        "desembre": 55000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "4.5%",
+        "febrer": "4.8%",
+        "març": "4.2%",
+        "abril": "4.0%",
+        "maig": "3.5%",
+        "juny": "3.0%",
+        "juliol": "3.5%",
+        "agost": "4.0%",
+        "setembre": "4.2%",
+        "octubre": "4.5%",
+        "novembre": "4.8%",
+        "desembre": "4.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "05-25",
+    "nom_barri": "Sant Gervasi - la Bonanova",
+    "codi_districte": "05",
+    "nom_districte": "Sarrià-Sant Gervasi",
+    "poblacio_2024": 24900,
+    "densitat_hab_km2": 13500,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 45000,
+        "febrer": 50000,
+        "març": 65000,
+        "abril": 75000,
+        "maig": 85000,
+        "juny": 90000,
+        "juliol": 95000,
+        "agost": 90000,
+        "setembre": 70000,
+        "octubre": 60000,
+        "novembre": 48000,
+        "desembre": 55000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "4.5%",
+        "febrer": "4.8%",
+        "març": "4.2%",
+        "abril": "4.0%",
+        "maig": "3.5%",
+        "juny": "3.0%",
+        "juliol": "3.5%",
+        "agost": "4.0%",
+        "setembre": "4.2%",
+        "octubre": "4.5%",
+        "novembre": "4.8%",
+        "desembre": "4.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "05-26",
+    "nom_barri": "Sant Gervasi - Galvany",
+    "codi_districte": "05",
+    "nom_districte": "Sarrià-Sant Gervasi",
+    "poblacio_2024": 27500,
+    "densitat_hab_km2": 17000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 45000,
+        "febrer": 50000,
+        "març": 65000,
+        "abril": 75000,
+        "maig": 85000,
+        "juny": 90000,
+        "juliol": 95000,
+        "agost": 90000,
+        "setembre": 70000,
+        "octubre": 60000,
+        "novembre": 48000,
+        "desembre": 55000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "4.5%",
+        "febrer": "4.8%",
+        "març": "4.2%",
+        "abril": "4.0%",
+        "maig": "3.5%",
+        "juny": "3.0%",
+        "juliol": "3.5%",
+        "agost": "4.0%",
+        "setembre": "4.2%",
+        "octubre": "4.5%",
+        "novembre": "4.8%",
+        "desembre": "4.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "05-27",
+    "nom_barri": "El Putxet i el Farró",
+    "codi_districte": "05",
+    "nom_districte": "Sarrià-Sant Gervasi",
+    "poblacio_2024": 30200,
+    "densitat_hab_km2": 21000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 45000,
+        "febrer": 50000,
+        "març": 65000,
+        "abril": 75000,
+        "maig": 85000,
+        "juny": 90000,
+        "juliol": 95000,
+        "agost": 90000,
+        "setembre": 70000,
+        "octubre": 60000,
+        "novembre": 48000,
+        "desembre": 55000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "4.5%",
+        "febrer": "4.8%",
+        "març": "4.2%",
+        "abril": "4.0%",
+        "maig": "3.5%",
+        "juny": "3.0%",
+        "juliol": "3.5%",
+        "agost": "4.0%",
+        "setembre": "4.2%",
+        "octubre": "4.5%",
+        "novembre": "4.8%",
+        "desembre": "4.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "06-28",
+    "nom_barri": "Gràcia Nova",
+    "codi_districte": "06",
+    "nom_districte": "Gràcia",
+    "poblacio_2024": 29800,
+    "densitat_hab_km2": 20000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 40000,
+        "febrer": 45000,
+        "març": 55000,
+        "abril": 65000,
+        "maig": 75000,
+        "juny": 80000,
+        "juliol": 85000,
+        "agost": 80000,
+        "setembre": 65000,
+        "octubre": 55000,
+        "novembre": 42000,
+        "desembre": 50000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.8%",
+        "febrer": "4.0%",
+        "març": "3.5%",
+        "abril": "3.2%",
+        "maig": "3.0%",
+        "juny": "3.0%",
+        "juliol": "3.2%",
+        "agost": "3.5%",
+        "setembre": "3.8%",
+        "octubre": "4.0%",
+        "novembre": "3.8%",
+        "desembre": "3.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "06-29",
+    "nom_barri": "Camp d'en Grassot i Gràcia Nova",
+    "codi_districte": "06",
+    "nom_districte": "Gràcia",
+    "poblacio_2024": 35200,
+    "densitat_hab_km2": 25000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 40000,
+        "febrer": 45000,
+        "març": 55000,
+        "abril": 65000,
+        "maig": 75000,
+        "juny": 80000,
+        "juliol": 85000,
+        "agost": 80000,
+        "setembre": 65000,
+        "octubre": 55000,
+        "novembre": 42000,
+        "desembre": 50000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.8%",
+        "febrer": "4.0%",
+        "març": "3.5%",
+        "abril": "3.2%",
+        "maig": "3.0%",
+        "juny": "3.0%",
+        "juliol": "3.2%",
+        "agost": "3.5%",
+        "setembre": "3.8%",
+        "octubre": "4.0%",
+        "novembre": "3.8%",
+        "desembre": "3.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "06-30",
+    "nom_barri": "La Vila de Gràcia",
+    "codi_districte": "06",
+    "nom_districte": "Gràcia",
+    "poblacio_2024": 49000,
+    "densitat_hab_km2": 35000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 40000,
+        "febrer": 45000,
+        "març": 55000,
+        "abril": 65000,
+        "maig": 75000,
+        "juny": 80000,
+        "juliol": 85000,
+        "agost": 80000,
+        "setembre": 65000,
+        "octubre": 55000,
+        "novembre": 42000,
+        "desembre": 50000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.8%",
+        "febrer": "4.0%",
+        "març": "3.5%",
+        "abril": "3.2%",
+        "maig": "3.0%",
+        "juny": "3.0%",
+        "juliol": "3.2%",
+        "agost": "3.5%",
+        "setembre": "3.8%",
+        "octubre": "4.0%",
+        "novembre": "3.8%",
+        "desembre": "3.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "06-31",
+    "nom_barri": "El Coll",
+    "codi_districte": "06",
+    "nom_districte": "Gràcia",
+    "poblacio_2024": 7500,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 40000,
+        "febrer": 45000,
+        "març": 55000,
+        "abril": 65000,
+        "maig": 75000,
+        "juny": 80000,
+        "juliol": 85000,
+        "agost": 80000,
+        "setembre": 65000,
+        "octubre": 55000,
+        "novembre": 42000,
+        "desembre": 50000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.8%",
+        "febrer": "4.0%",
+        "març": "3.5%",
+        "abril": "3.2%",
+        "maig": "3.0%",
+        "juny": "3.0%",
+        "juliol": "3.2%",
+        "agost": "3.5%",
+        "setembre": "3.8%",
+        "octubre": "4.0%",
+        "novembre": "3.8%",
+        "desembre": "3.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "06-32",
+    "nom_barri": "La Salut",
+    "codi_districte": "06",
+    "nom_districte": "Gràcia",
+    "poblacio_2024": 14000,
+    "densitat_hab_km2": 21000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 40000,
+        "febrer": 45000,
+        "març": 55000,
+        "abril": 65000,
+        "maig": 75000,
+        "juny": 80000,
+        "juliol": 85000,
+        "agost": 80000,
+        "setembre": 65000,
+        "octubre": 55000,
+        "novembre": 42000,
+        "desembre": 50000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.8%",
+        "febrer": "4.0%",
+        "març": "3.5%",
+        "abril": "3.2%",
+        "maig": "3.0%",
+        "juny": "3.0%",
+        "juliol": "3.2%",
+        "agost": "3.5%",
+        "setembre": "3.8%",
+        "octubre": "4.0%",
+        "novembre": "3.8%",
+        "desembre": "3.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07-33",
+    "nom_barri": "El Guinardó",
+    "codi_districte": "07",
+    "nom_districte": "Horta-Guinardó",
+    "poblacio_2024": 37100,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 30000,
+        "febrer": 35000,
+        "març": 40000,
+        "abril": 45000,
+        "maig": 50000,
+        "juny": 55000,
+        "juliol": 60000,
+        "agost": 60000,
+        "setembre": 50000,
+        "octubre": 45000,
+        "novembre": 35000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.0%",
+        "febrer": "3.5%",
+        "març": "3.0%",
+        "abril": "2.8%",
+        "maig": "2.5%",
+        "juny": "2.5%",
+        "juliol": "2.8%",
+        "agost": "3.0%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "3.0%",
+        "desembre": "3.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07-34",
+    "nom_barri": "El Baix Guinardó",
+    "codi_districte": "07",
+    "nom_districte": "Horta-Guinardó",
+    "poblacio_2024": 26500,
+    "densitat_hab_km2": 21000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 30000,
+        "febrer": 35000,
+        "març": 40000,
+        "abril": 45000,
+        "maig": 50000,
+        "juny": 55000,
+        "juliol": 60000,
+        "agost": 60000,
+        "setembre": 50000,
+        "octubre": 45000,
+        "novembre": 35000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.0%",
+        "febrer": "3.5%",
+        "març": "3.0%",
+        "abril": "2.8%",
+        "maig": "2.5%",
+        "juny": "2.5%",
+        "juliol": "2.8%",
+        "agost": "3.0%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "3.0%",
+        "desembre": "3.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07-35",
+    "nom_barri": "Can Baró",
+    "codi_districte": "07",
+    "nom_districte": "Horta-Guinardó",
+    "poblacio_2024": 8800,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 30000,
+        "febrer": 35000,
+        "març": 40000,
+        "abril": 45000,
+        "maig": 50000,
+        "juny": 55000,
+        "juliol": 60000,
+        "agost": 60000,
+        "setembre": 50000,
+        "octubre": 45000,
+        "novembre": 35000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.0%",
+        "febrer": "3.5%",
+        "març": "3.0%",
+        "abril": "2.8%",
+        "maig": "2.5%",
+        "juny": "2.5%",
+        "juliol": "2.8%",
+        "agost": "3.0%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "3.0%",
+        "desembre": "3.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07-36",
+    "nom_barri": "La Font d'en Fargues",
+    "codi_districte": "07",
+    "nom_districte": "Horta-Guinardó",
+    "poblacio_2024": 9600,
+    "densitat_hab_km2": 12000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 30000,
+        "febrer": 35000,
+        "març": 40000,
+        "abril": 45000,
+        "maig": 50000,
+        "juny": 55000,
+        "juliol": 60000,
+        "agost": 60000,
+        "setembre": 50000,
+        "octubre": 45000,
+        "novembre": 35000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.0%",
+        "febrer": "3.5%",
+        "març": "3.0%",
+        "abril": "2.8%",
+        "maig": "2.5%",
+        "juny": "2.5%",
+        "juliol": "2.8%",
+        "agost": "3.0%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "3.0%",
+        "desembre": "3.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07-37",
+    "nom_barri": "El Carmel",
+    "codi_districte": "07",
+    "nom_districte": "Horta-Guinardó",
+    "poblacio_2024": 33500,
+    "densitat_hab_km2": 25000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 30000,
+        "febrer": 35000,
+        "març": 40000,
+        "abril": 45000,
+        "maig": 50000,
+        "juny": 55000,
+        "juliol": 60000,
+        "agost": 60000,
+        "setembre": 50000,
+        "octubre": 45000,
+        "novembre": 35000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.0%",
+        "febrer": "3.5%",
+        "març": "3.0%",
+        "abril": "2.8%",
+        "maig": "2.5%",
+        "juny": "2.5%",
+        "juliol": "2.8%",
+        "agost": "3.0%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "3.0%",
+        "desembre": "3.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07-38",
+    "nom_barri": "La Teixonera",
+    "codi_districte": "07",
+    "nom_districte": "Horta-Guinardó",
+    "poblacio_2024": 15000,
+    "densitat_hab_km2": 22000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 30000,
+        "febrer": 35000,
+        "març": 40000,
+        "abril": 45000,
+        "maig": 50000,
+        "juny": 55000,
+        "juliol": 60000,
+        "agost": 60000,
+        "setembre": 50000,
+        "octubre": 45000,
+        "novembre": 35000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.0%",
+        "febrer": "3.5%",
+        "març": "3.0%",
+        "abril": "2.8%",
+        "maig": "2.5%",
+        "juny": "2.5%",
+        "juliol": "2.8%",
+        "agost": "3.0%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "3.0%",
+        "desembre": "3.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07-39",
+    "nom_barri": "Sant Genís dels Agudells",
+    "codi_districte": "07",
+    "nom_districte": "Horta-Guinardó",
+    "poblacio_2024": 11500,
+    "densitat_hab_km2": 7000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 30000,
+        "febrer": 35000,
+        "març": 40000,
+        "abril": 45000,
+        "maig": 50000,
+        "juny": 55000,
+        "juliol": 60000,
+        "agost": 60000,
+        "setembre": 50000,
+        "octubre": 45000,
+        "novembre": 35000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.0%",
+        "febrer": "3.5%",
+        "març": "3.0%",
+        "abril": "2.8%",
+        "maig": "2.5%",
+        "juny": "2.5%",
+        "juliol": "2.8%",
+        "agost": "3.0%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "3.0%",
+        "desembre": "3.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07-40",
+    "nom_barri": "Montbau",
+    "codi_districte": "07",
+    "nom_districte": "Horta-Guinardó",
+    "poblacio_2024": 5500,
+    "densitat_hab_km2": 9000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 30000,
+        "febrer": 35000,
+        "març": 40000,
+        "abril": 45000,
+        "maig": 50000,
+        "juny": 55000,
+        "juliol": 60000,
+        "agost": 60000,
+        "setembre": 50000,
+        "octubre": 45000,
+        "novembre": 35000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.0%",
+        "febrer": "3.5%",
+        "març": "3.0%",
+        "abril": "2.8%",
+        "maig": "2.5%",
+        "juny": "2.5%",
+        "juliol": "2.8%",
+        "agost": "3.0%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "3.0%",
+        "desembre": "3.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07-41",
+    "nom_barri": "La Vall d'Hebron",
+    "codi_districte": "07",
+    "nom_districte": "Horta-Guinardó",
+    "poblacio_2024": 5800,
+    "densitat_hab_km2": 6500,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 30000,
+        "febrer": 35000,
+        "març": 40000,
+        "abril": 45000,
+        "maig": 50000,
+        "juny": 55000,
+        "juliol": 60000,
+        "agost": 60000,
+        "setembre": 50000,
+        "octubre": 45000,
+        "novembre": 35000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.0%",
+        "febrer": "3.5%",
+        "març": "3.0%",
+        "abril": "2.8%",
+        "maig": "2.5%",
+        "juny": "2.5%",
+        "juliol": "2.8%",
+        "agost": "3.0%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "3.0%",
+        "desembre": "3.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07-42",
+    "nom_barri": "La Clota",
+    "codi_districte": "07",
+    "nom_districte": "Horta-Guinardó",
+    "poblacio_2024": 750,
+    "densitat_hab_km2": 8000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 30000,
+        "febrer": 35000,
+        "març": 40000,
+        "abril": 45000,
+        "maig": 50000,
+        "juny": 55000,
+        "juliol": 60000,
+        "agost": 60000,
+        "setembre": 50000,
+        "octubre": 45000,
+        "novembre": 35000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.0%",
+        "febrer": "3.5%",
+        "març": "3.0%",
+        "abril": "2.8%",
+        "maig": "2.5%",
+        "juny": "2.5%",
+        "juliol": "2.8%",
+        "agost": "3.0%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "3.0%",
+        "desembre": "3.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07-43",
+    "nom_barri": "Horta",
+    "codi_districte": "07",
+    "nom_districte": "Horta-Guinardó",
+    "poblacio_2024": 28500,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 30000,
+        "febrer": 35000,
+        "març": 40000,
+        "abril": 45000,
+        "maig": 50000,
+        "juny": 55000,
+        "juliol": 60000,
+        "agost": 60000,
+        "setembre": 50000,
+        "octubre": 45000,
+        "novembre": 35000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "3.0%",
+        "febrer": "3.5%",
+        "març": "3.0%",
+        "abril": "2.8%",
+        "maig": "2.5%",
+        "juny": "2.5%",
+        "juliol": "2.8%",
+        "agost": "3.0%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "3.0%",
+        "desembre": "3.2%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-44",
+    "nom_barri": "Vilapicina i la Torre Llobeta",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 25000,
+    "densitat_hab_km2": 26000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-45",
+    "nom_barri": "Porta",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 26500,
+    "densitat_hab_km2": 30000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-46",
+    "nom_barri": "El Turó de la Peira",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 16500,
+    "densitat_hab_km2": 24000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-47",
+    "nom_barri": "Can Peguera",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 3500,
+    "densitat_hab_km2": 28000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-48",
+    "nom_barri": "La Guineueta",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 15000,
+    "densitat_hab_km2": 19000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-49",
+    "nom_barri": "Canyelles",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 10500,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-50",
+    "nom_barri": "Les Roquetes",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 16000,
+    "densitat_hab_km2": 25000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-51",
+    "nom_barri": "Verdum",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 12500,
+    "densitat_hab_km2": 29000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-52",
+    "nom_barri": "Ciutat Meridiana",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 11000,
+    "densitat_hab_km2": 8000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-53",
+    "nom_barri": "Torre Baró",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 2500,
+    "densitat_hab_km2": 2000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-54",
+    "nom_barri": "Vallbona",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 1400,
+    "densitat_hab_km2": 1500,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08-55",
+    "nom_barri": "Les Cases de Baró",
+    "codi_districte": "08",
+    "nom_districte": "Nou Barris",
+    "poblacio_2024": 1500,
+    "densitat_hab_km2": 3500,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 22000,
+        "març": 25000,
+        "abril": 28000,
+        "maig": 30000,
+        "juny": 32000,
+        "juliol": 35000,
+        "agost": 34000,
+        "setembre": 28000,
+        "octubre": 25000,
+        "novembre": 21000,
+        "desembre": 23000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.0%",
+        "febrer": "2.2%",
+        "març": "2.0%",
+        "abril": "1.8%",
+        "maig": "1.5%",
+        "juny": "1.5%",
+        "juliol": "1.8%",
+        "agost": "2.0%",
+        "setembre": "2.0%",
+        "octubre": "2.2%",
+        "novembre": "2.0%",
+        "desembre": "2.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "09-56",
+    "nom_barri": "Sant Andreu",
+    "codi_districte": "09",
+    "nom_districte": "Sant Andreu",
+    "poblacio_2024": 55000,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 25000,
+        "febrer": 28000,
+        "març": 32000,
+        "abril": 35000,
+        "maig": 40000,
+        "juny": 45000,
+        "juliol": 50000,
+        "agost": 48000,
+        "setembre": 40000,
+        "octubre": 35000,
+        "novembre": 28000,
+        "desembre": 32000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.5%",
+        "febrer": "2.8%",
+        "març": "3.0%",
+        "abril": "2.5%",
+        "maig": "2.0%",
+        "juny": "2.0%",
+        "juliol": "2.5%",
+        "agost": "2.8%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "2.8%",
+        "desembre": "3.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "09-57",
+    "nom_barri": "La Sagrera",
+    "codi_districte": "09",
+    "nom_districte": "Sant Andreu",
+    "poblacio_2024": 30500,
+    "densitat_hab_km2": 25000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 25000,
+        "febrer": 28000,
+        "març": 32000,
+        "abril": 35000,
+        "maig": 40000,
+        "juny": 45000,
+        "juliol": 50000,
+        "agost": 48000,
+        "setembre": 40000,
+        "octubre": 35000,
+        "novembre": 28000,
+        "desembre": 32000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.5%",
+        "febrer": "2.8%",
+        "març": "3.0%",
+        "abril": "2.5%",
+        "maig": "2.0%",
+        "juny": "2.0%",
+        "juliol": "2.5%",
+        "agost": "2.8%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "2.8%",
+        "desembre": "3.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "09-58",
+    "nom_barri": "El Congrés i els Indians",
+    "codi_districte": "09",
+    "nom_districte": "Sant Andreu",
+    "poblacio_2024": 15500,
+    "densitat_hab_km2": 31000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 25000,
+        "febrer": 28000,
+        "març": 32000,
+        "abril": 35000,
+        "maig": 40000,
+        "juny": 45000,
+        "juliol": 50000,
+        "agost": 48000,
+        "setembre": 40000,
+        "octubre": 35000,
+        "novembre": 28000,
+        "desembre": 32000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.5%",
+        "febrer": "2.8%",
+        "març": "3.0%",
+        "abril": "2.5%",
+        "maig": "2.0%",
+        "juny": "2.0%",
+        "juliol": "2.5%",
+        "agost": "2.8%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "2.8%",
+        "desembre": "3.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "09-59",
+    "nom_barri": "Navas",
+    "codi_districte": "09",
+    "nom_districte": "Sant Andreu",
+    "poblacio_2024": 15000,
+    "densitat_hab_km2": 25000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 25000,
+        "febrer": 28000,
+        "març": 32000,
+        "abril": 35000,
+        "maig": 40000,
+        "juny": 45000,
+        "juliol": 50000,
+        "agost": 48000,
+        "setembre": 40000,
+        "octubre": 35000,
+        "novembre": 28000,
+        "desembre": 32000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.5%",
+        "febrer": "2.8%",
+        "març": "3.0%",
+        "abril": "2.5%",
+        "maig": "2.0%",
+        "juny": "2.0%",
+        "juliol": "2.5%",
+        "agost": "2.8%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "2.8%",
+        "desembre": "3.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "09-60",
+    "nom_barri": "El Bon Pastor",
+    "codi_districte": "09",
+    "nom_districte": "Sant Andreu",
+    "poblacio_2024": 13800,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 25000,
+        "febrer": 28000,
+        "març": 32000,
+        "abril": 35000,
+        "maig": 40000,
+        "juny": 45000,
+        "juliol": 50000,
+        "agost": 48000,
+        "setembre": 40000,
+        "octubre": 35000,
+        "novembre": 28000,
+        "desembre": 32000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.5%",
+        "febrer": "2.8%",
+        "març": "3.0%",
+        "abril": "2.5%",
+        "maig": "2.0%",
+        "juny": "2.0%",
+        "juliol": "2.5%",
+        "agost": "2.8%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "2.8%",
+        "desembre": "3.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "09-61",
+    "nom_barri": "Baró de Viver",
+    "codi_districte": "09",
+    "nom_districte": "Sant Andreu",
+    "poblacio_2024": 2600,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 25000,
+        "febrer": 28000,
+        "març": 32000,
+        "abril": 35000,
+        "maig": 40000,
+        "juny": 45000,
+        "juliol": 50000,
+        "agost": 48000,
+        "setembre": 40000,
+        "octubre": 35000,
+        "novembre": 28000,
+        "desembre": 32000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.5%",
+        "febrer": "2.8%",
+        "març": "3.0%",
+        "abril": "2.5%",
+        "maig": "2.0%",
+        "juny": "2.0%",
+        "juliol": "2.5%",
+        "agost": "2.8%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "2.8%",
+        "desembre": "3.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "09-62",
+    "nom_barri": "La Trinitat Vella",
+    "codi_districte": "09",
+    "nom_districte": "Sant Andreu",
+    "poblacio_2024": 11500,
+    "densitat_hab_km2": 18000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 25000,
+        "febrer": 28000,
+        "març": 32000,
+        "abril": 35000,
+        "maig": 40000,
+        "juny": 45000,
+        "juliol": 50000,
+        "agost": 48000,
+        "setembre": 40000,
+        "octubre": 35000,
+        "novembre": 28000,
+        "desembre": 32000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "2.5%",
+        "febrer": "2.8%",
+        "març": "3.0%",
+        "abril": "2.5%",
+        "maig": "2.0%",
+        "juny": "2.0%",
+        "juliol": "2.5%",
+        "agost": "2.8%",
+        "setembre": "3.0%",
+        "octubre": "3.5%",
+        "novembre": "2.8%",
+        "desembre": "3.0%"
+      }
+    }
+  },
+  {
+    "codi_barri": "10-63",
+    "nom_barri": "El Camp de l'Arpa del Clot",
+    "codi_districte": "10",
+    "nom_districte": "Sant Martí",
+    "poblacio_2024": 38000,
+    "densitat_hab_km2": 31000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 85000,
+        "febrer": 90000,
+        "març": 110000,
+        "abril": 130000,
+        "maig": 150000,
+        "juny": 170000,
+        "juliol": 190000,
+        "agost": 200000,
+        "setembre": 160000,
+        "octubre": 140000,
+        "novembre": 100000,
+        "desembre": 120000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "9.5%",
+        "febrer": "10.0%",
+        "març": "11.0%",
+        "abril": "10.5%",
+        "maig": "9.0%",
+        "juny": "8.5%",
+        "juliol": "8.0%",
+        "agost": "8.5%",
+        "setembre": "9.0%",
+        "octubre": "9.5%",
+        "novembre": "10.0%",
+        "desembre": "9.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "10-64",
+    "nom_barri": "El Clot",
+    "codi_districte": "10",
+    "nom_districte": "Sant Martí",
+    "poblacio_2024": 32000,
+    "densitat_hab_km2": 28000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 85000,
+        "febrer": 90000,
+        "març": 110000,
+        "abril": 130000,
+        "maig": 150000,
+        "juny": 170000,
+        "juliol": 190000,
+        "agost": 200000,
+        "setembre": 160000,
+        "octubre": 140000,
+        "novembre": 100000,
+        "desembre": 120000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "9.5%",
+        "febrer": "10.0%",
+        "març": "11.0%",
+        "abril": "10.5%",
+        "maig": "9.0%",
+        "juny": "8.5%",
+        "juliol": "8.0%",
+        "agost": "8.5%",
+        "setembre": "9.0%",
+        "octubre": "9.5%",
+        "novembre": "10.0%",
+        "desembre": "9.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "10-65",
+    "nom_barri": "El Parc i la Llacuna del Poblenou",
+    "codi_districte": "10",
+    "nom_districte": "Sant Martí",
+    "poblacio_2024": 15500,
+    "densitat_hab_km2": 10000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 85000,
+        "febrer": 90000,
+        "març": 110000,
+        "abril": 130000,
+        "maig": 150000,
+        "juny": 170000,
+        "juliol": 190000,
+        "agost": 200000,
+        "setembre": 160000,
+        "octubre": 140000,
+        "novembre": 100000,
+        "desembre": 120000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "9.5%",
+        "febrer": "10.0%",
+        "març": "11.0%",
+        "abril": "10.5%",
+        "maig": "9.0%",
+        "juny": "8.5%",
+        "juliol": "8.0%",
+        "agost": "8.5%",
+        "setembre": "9.0%",
+        "octubre": "9.5%",
+        "novembre": "10.0%",
+        "desembre": "9.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "10-66",
+    "nom_barri": "La Vila Olímpica del Poblenou",
+    "codi_districte": "10",
+    "nom_districte": "Sant Martí",
+    "poblacio_2024": 9500,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 85000,
+        "febrer": 90000,
+        "març": 110000,
+        "abril": 130000,
+        "maig": 150000,
+        "juny": 170000,
+        "juliol": 190000,
+        "agost": 200000,
+        "setembre": 160000,
+        "octubre": 140000,
+        "novembre": 100000,
+        "desembre": 120000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "9.5%",
+        "febrer": "10.0%",
+        "març": "11.0%",
+        "abril": "10.5%",
+        "maig": "9.0%",
+        "juny": "8.5%",
+        "juliol": "8.0%",
+        "agost": "8.5%",
+        "setembre": "9.0%",
+        "octubre": "9.5%",
+        "novembre": "10.0%",
+        "desembre": "9.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "10-67",
+    "nom_barri": "El Poblenou",
+    "codi_districte": "10",
+    "nom_districte": "Sant Martí",
+    "poblacio_2024": 35000,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 85000,
+        "febrer": 90000,
+        "març": 110000,
+        "abril": 130000,
+        "maig": 150000,
+        "juny": 170000,
+        "juliol": 190000,
+        "agost": 200000,
+        "setembre": 160000,
+        "octubre": 140000,
+        "novembre": 100000,
+        "desembre": 120000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "9.5%",
+        "febrer": "10.0%",
+        "març": "11.0%",
+        "abril": "10.5%",
+        "maig": "9.0%",
+        "juny": "8.5%",
+        "juliol": "8.0%",
+        "agost": "8.5%",
+        "setembre": "9.0%",
+        "octubre": "9.5%",
+        "novembre": "10.0%",
+        "desembre": "9.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "10-68",
+    "nom_barri": "Diagonal Mar i el Front Marítim del Poblenou",
+    "codi_districte": "10",
+    "nom_districte": "Sant Martí",
+    "poblacio_2024": 14000,
+    "densitat_hab_km2": 8000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 85000,
+        "febrer": 90000,
+        "març": 110000,
+        "abril": 130000,
+        "maig": 150000,
+        "juny": 170000,
+        "juliol": 190000,
+        "agost": 200000,
+        "setembre": 160000,
+        "octubre": 140000,
+        "novembre": 100000,
+        "desembre": 120000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "9.5%",
+        "febrer": "10.0%",
+        "març": "11.0%",
+        "abril": "10.5%",
+        "maig": "9.0%",
+        "juny": "8.5%",
+        "juliol": "8.0%",
+        "agost": "8.5%",
+        "setembre": "9.0%",
+        "octubre": "9.5%",
+        "novembre": "10.0%",
+        "desembre": "9.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "10-69",
+    "nom_barri": "El Besòs i el Maresme",
+    "codi_districte": "10",
+    "nom_districte": "Sant Martí",
+    "poblacio_2024": 26000,
+    "densitat_hab_km2": 21000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 85000,
+        "febrer": 90000,
+        "març": 110000,
+        "abril": 130000,
+        "maig": 150000,
+        "juny": 170000,
+        "juliol": 190000,
+        "agost": 200000,
+        "setembre": 160000,
+        "octubre": 140000,
+        "novembre": 100000,
+        "desembre": 120000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "9.5%",
+        "febrer": "10.0%",
+        "març": "11.0%",
+        "abril": "10.5%",
+        "maig": "9.0%",
+        "juny": "8.5%",
+        "juliol": "8.0%",
+        "agost": "8.5%",
+        "setembre": "9.0%",
+        "octubre": "9.5%",
+        "novembre": "10.0%",
+        "desembre": "9.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "10-70",
+    "nom_barri": "Provençals del Poblenou",
+    "codi_districte": "10",
+    "nom_districte": "Sant Martí",
+    "poblacio_2024": 20500,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 85000,
+        "febrer": 90000,
+        "març": 110000,
+        "abril": 130000,
+        "maig": 150000,
+        "juny": 170000,
+        "juliol": 190000,
+        "agost": 200000,
+        "setembre": 160000,
+        "octubre": 140000,
+        "novembre": 100000,
+        "desembre": 120000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "9.5%",
+        "febrer": "10.0%",
+        "març": "11.0%",
+        "abril": "10.5%",
+        "maig": "9.0%",
+        "juny": "8.5%",
+        "juliol": "8.0%",
+        "agost": "8.5%",
+        "setembre": "9.0%",
+        "octubre": "9.5%",
+        "novembre": "10.0%",
+        "desembre": "9.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "10-71",
+    "nom_barri": "Sant Martí de Provençals",
+    "codi_districte": "10",
+    "nom_districte": "Sant Martí",
+    "poblacio_2024": 26000,
+    "densitat_hab_km2": 20000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 85000,
+        "febrer": 90000,
+        "març": 110000,
+        "abril": 130000,
+        "maig": 150000,
+        "juny": 170000,
+        "juliol": 190000,
+        "agost": 200000,
+        "setembre": 160000,
+        "octubre": 140000,
+        "novembre": 100000,
+        "desembre": 120000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "9.5%",
+        "febrer": "10.0%",
+        "març": "11.0%",
+        "abril": "10.5%",
+        "maig": "9.0%",
+        "juny": "8.5%",
+        "juliol": "8.0%",
+        "agost": "8.5%",
+        "setembre": "9.0%",
+        "octubre": "9.5%",
+        "novembre": "10.0%",
+        "desembre": "9.5%"
+      }
+    }
+  },
+  {
+    "codi_barri": "10-72",
+    "nom_barri": "La Verneda i la Pau",
+    "codi_districte": "10",
+    "nom_districte": "Sant Martí",
+    "poblacio_2024": 28500,
+    "densitat_hab_km2": 25000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 85000,
+        "febrer": 90000,
+        "març": 110000,
+        "abril": 130000,
+        "maig": 150000,
+        "juny": 170000,
+        "juliol": 190000,
+        "agost": 200000,
+        "setembre": 160000,
+        "octubre": 140000,
+        "novembre": 100000,
+        "desembre": 120000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "9.5%",
+        "febrer": "10.0%",
+        "març": "11.0%",
+        "abril": "10.5%",
+        "maig": "9.0%",
+        "juny": "8.5%",
+        "juliol": "8.0%",
+        "agost": "8.5%",
+        "setembre": "9.0%",
+        "octubre": "9.5%",
+        "novembre": "10.0%",
+        "desembre": "9.5%"
+      }
+    }
+  }
+]
