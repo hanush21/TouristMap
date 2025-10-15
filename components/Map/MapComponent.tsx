@@ -68,10 +68,7 @@ interface MapComponentProps {
     hoteles: boolean;
     transporte: boolean;
     nivelRuido: boolean;
-    densidadHabitantes: boolean;
     densidadTuristas: boolean;
-    densidadTransporte: boolean;
-    contaminacionSonora: boolean;
   };
   sliderValue?: number;
 }
