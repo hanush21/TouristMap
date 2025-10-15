@@ -8,6 +8,7 @@ import SuscribirModal from '@/components/SuscribirModal';
 import EquipoModal from '@/components/EquipoModal';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import Legend from '@/components/Legend/Legend';
 
 // ⬇️ Importa el formulario principal y su lista por defecto
 import TouristForm, { DEFAULT_NEIGHBORHOODS } from '@/components/forms/forms';
@@ -163,17 +164,20 @@ const TouristMapLayout: React.FC = () => {
             
             {/* Slider flotante sobre el mapa (NO CAMBIADO) */}
             {filters.densidadTuristas && (
-              <div className="fixed bottom-4 left-4 z-[3000] w-1/2">
-                <div className="bg-white/80 p-1 md:p-4 shadow-lg rounded-md backdrop-blur-md">
-                  <SliderComponent
-                    value={sliderValue}
-                    onChange={setSliderValue}
-                    min={0}
-                    max={100}
-                    label="Densidad Turística"
-                  />
+              <div className="relative">
+                <div className="fixed bottom-4 left-4 z-[3000] w-1/2">
+                  <div className="bg-white/80 p-1 md:p-4 shadow-lg rounded-md backdrop-blur-md">
+                    <SliderComponent
+                      value={sliderValue}
+                      onChange={setSliderValue}
+                      min={0}
+                      max={100}
+                      label="Densidad Turística"
+                    />
+                  </div>
                 </div>
-              </div>
+                <Legend />
+              </div> 
             )}
           </div>
           

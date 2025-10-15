@@ -5,7 +5,7 @@ import { MapContainer, TileLayer, Marker, Popup, useMap, Circle } from 'react-le
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import styles from './Map.module.css';
-import Legend from '../Legend/Legend';
+
 
 // Fix para los iconos de Leaflet en Next.js
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -312,7 +312,9 @@ const MapComponent: React.FC<MapComponentProps> = ({ filters, sliderValue }) => 
             </Marker>
           ))}
       </MapContainer>
-      <Legend />
+      
+      
+   
     </div>
   );
 };
