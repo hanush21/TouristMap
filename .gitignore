@@ -2,6 +2,7 @@
 .env
 /.next
 .next
+.next
 /.next/app-build-manifest.json
 .next/app-build-manifest.json
 .next/app-build-manifest.json
