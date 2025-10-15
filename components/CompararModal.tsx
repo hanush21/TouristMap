@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { mapAPI } from '../lib/api';
 
 interface CompararModalProps {
   isOpen: boolean;
@@ -12,48 +11,26 @@ interface CompararModalProps {
 }
 
 interface BarrioData {
-  codi_barri?: string;
-  nom_barri?: string;
-  nom_districte?: string;
-  poblacio_2024?: number;
-  densitat_hab_km2?: number;
-  // Propiedades alternativas
-  name?: string;
-  barrio_name?: string;
-  district?: string;
-  district_name?: string;
-  codi_districte?: string;
-  turisme_mensual?: {
-    turistes_absolut_districte_simulat?: {
-      gener?: number;
-      febrer?: number;
-      març?: number;
-      abril?: number;
-      maig?: number;
-      juny?: number;
-      juliol?: number;
-      agost?: number;
-      setembre?: number;
-      octubre?: number;
-      novembre?: number;
-      desembre?: number;
-    };
-    turisme_percentatge_districte?: {
-      gener?: string;
-      febrer?: string;
-      març?: string;
-      abril?: string;
-      maig?: string;
-      juny?: string;
-      juliol?: string;
-      agost?: string;
-      setembre?: string;
-      octubre?: string;
-      novembre?: string;
-      desembre?: string;
+  codi_barri: string;
+  nom_barri: string;
+  nom_districte: string;
+  poblacio_2024: number;
+  densitat_hab_km2: number;
+  turisme_mensual: {
+    turisme_percentatge_districte: {
+      juliol: string;
     };
   };
-  [key: string]: any; // Para permitir propiedades adicionales
+}
+
+interface CoordenadasData {
+  codi_barri: string;
+  nom_barri: string;
+  nom_districte: string;
+  nivel_ruido: number;
+  contaminacion_sonora: number;
+  densidad_transporte: number;
+  hoteles: number;
 }
 
 interface BarrioComparacion {
@@ -73,7 +50,7 @@ interface BarrioComparacion {
 const CompararModal: React.FC<CompararModalProps> = ({ isOpen, onClose }) => {
   const [barriosSeleccionados, setBarriosSeleccionados] = useState<string[]>([]);
   const [barriosData, setBarriosData] = useState<BarrioData[]>([]);
-  const [coordenadasData, setCoordenadasData] = useState<any[]>([]);
+  const [coordenadasData, setCoordenadasData] = useState<CoordenadasData[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -93,19 +70,9 @@ const CompararModal: React.FC<CompararModalProps> = ({ isOpen, onClose }) => {
         fetch('/data/coordenadas-barrios.json').then(res => res.json())
       ]);
       
-      console.log('=== DATOS DE COMPARACIÓN (JSON) ===');
-      console.log('Datos de turismo cargados:', turismoResponse);
-      console.log('Cantidad de barrios de turismo:', turismoResponse?.length);
-      console.log('Primer elemento turismo:', turismoResponse?.[0]);
-      console.log('Datos de coordenadas cargados:', coordenadasResponse);
-      console.log('Cantidad de coordenadas:', coordenadasResponse?.length);
-      console.log('Primer elemento coordenadas:', coordenadasResponse?.[0]);
-      
       setBarriosData(turismoResponse);
       setCoordenadasData(coordenadasResponse);
       
-      console.log('Estado actualizado - barriosData:', turismoResponse?.length);
-      console.log('Estado actualizado - coordenadasData:', coordenadasResponse?.length);
     } catch (error) {
       console.error('Error cargando datos de barrios:', error);
       setError('Error al cargar los datos de comparación');
@@ -124,44 +91,33 @@ const CompararModal: React.FC<CompararModalProps> = ({ isOpen, onClose }) => {
 
   const getBarriosComparar = (): BarrioComparacion[] => {
     return barriosSeleccionados
-      .filter(barrioId => barrioId) // Filtrar IDs válidos
       .map(barrioId => {
-        const barrio = barriosData.find(b => b && b.codi_barri === barrioId);
-        const coordenadas = coordenadasData.find(c => c && c.codi_barri === barrioId);
+        const barrio = barriosData.find(b => b.codi_barri === barrioId);
+        const coordenadas = coordenadasData.find(c => c.codi_barri === barrioId);
         
         if (!barrio || !coordenadas) return null;
         
-        try {
-          // Calcular métricas basadas en los datos reales con validación
-          let densidadTuristas = 0;
-          if (barrio.turisme_mensual && 
-              barrio.turisme_mensual.turisme_percentatge_districte && 
-              barrio.turisme_mensual.turisme_percentatge_districte.juliol) {
-            densidadTuristas = Math.round(
-              parseFloat(barrio.turisme_mensual.turisme_percentatge_districte.juliol.replace('%', '')) * 10
-            );
-          }
-          
-          const densidadHabitantes = barrio.densitat_hab_km2 ? 
-            Math.round((barrio.densitat_hab_km2 / 35000) * 100) : 0;
-          
-          return {
-            codi_barri: barrio.codi_barri,
-            nom_barri: barrio.nom_barri || `Barrio ${barrioId}`,
-            nom_districte: barrio.nom_districte || 'Distrito',
-            poblacio_2024: barrio.poblacio_2024 || 0,
-            densitat_hab_km2: barrio.densitat_hab_km2 || 0,
-            densidadTuristas: Math.min(100, densidadTuristas),
-            densidadHabitantes: Math.min(100, densidadHabitantes),
-            nivelRuido: coordenadas.nivel_ruido || 0,
-            contaminacionSonora: coordenadas.contaminacion_sonora || 0,
-            transporte: coordenadas.densidad_transporte || 0,
-            hoteles: coordenadas.hoteles || 0
-          };
-        } catch (error) {
-          console.warn('Error procesando barrio para comparación:', barrioId, error);
-          return null;
-        }
+        // Calcular densidad de turistas desde el porcentaje de julio
+        const densidadTuristas = Math.round(
+          parseFloat(barrio.turisme_mensual.turisme_percentatge_districte.juliol.replace('%', ''))
+        );
+        
+        // Calcular densidad de habitantes (normalizada)
+        const densidadHabitantes = Math.round((barrio.densitat_hab_km2 / 35000) * 100);
+        
+        return {
+          codi_barri: barrio.codi_barri,
+          nom_barri: barrio.nom_barri,
+          nom_districte: barrio.nom_districte,
+          poblacio_2024: barrio.poblacio_2024,
+          densitat_hab_km2: barrio.densitat_hab_km2,
+          densidadTuristas: Math.min(100, densidadTuristas),
+          densidadHabitantes: Math.min(100, densidadHabitantes),
+          nivelRuido: coordenadas.nivel_ruido,
+          contaminacionSonora: coordenadas.contaminacion_sonora,
+          transporte: coordenadas.densidad_transporte,
+          hoteles: coordenadas.hoteles
+        };
       })
       .filter(Boolean) as BarrioComparacion[];
   };
@@ -176,10 +132,14 @@ const CompararModal: React.FC<CompararModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/50 bg-opacity-50 flex items-center justify-center z-[100] p-4 modal-backdrop" onClick={onClose} >
+    <div className="fixed inset-0 bg-black/50 bg-opacity-50 flex items-center justify-center z-[100] p-4 modal-backdrop" onClick={(e) => {
+        if (e.target === e.currentTarget) {
+          onClose();
+        }
+      }}>
       <Card className="w-full max-w-6xl max-h-[90vh] overflow-y-auto">
         <CardHeader className="flex flex-row items-center justify-between">
-          <CardTitle className="text-2xl font-bold">Comparar Barrios</CardTitle>
+          <CardTitle className="text-2xl font-bold">Comparar los 10 Barrios Más Turísticos de Barcelona</CardTitle>
           <Button variant="outline" onClick={onClose}>
             ✕
           </Button>
@@ -200,50 +160,31 @@ const CompararModal: React.FC<CompararModalProps> = ({ isOpen, onClose }) => {
 
           {!loading && !error && (
             <>
-          {/* Debug info */}
-          <div className="mb-4 p-3 bg-gray-100 rounded text-sm">
-            <p><strong>Debug Info:</strong></p>
-            <p>• Barrios cargados: {barriosData.length}</p>
-            <p>• Coordenadas cargadas: {coordenadasData.length}</p>
-            <p>• Barrios filtrados: {barriosData.filter(b => b && b.codi_barri).length}</p>
-            <p>• Estado de carga: {loading ? 'Cargando...' : 'Completado'}</p>
-            <p>• Error: {error || 'Ninguno'}</p>
-          </div>
-          
           {/* Selección de barrios */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Selecciona los barrios a comparar:</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-              {barriosData.length === 0 ? (
-                <div className="col-span-full text-center py-8 text-gray-500">
-                  <p>No se encontraron barrios para comparar</p>
-                  <p className="text-sm mt-2">Revisa la consola para más detalles</p>
-                </div>
-              ) : (
-                barriosData
-                  .filter(barrio => barrio && barrio.codi_barri) // Filtrar elementos válidos
-                  .map((barrio, index) => (
-                  <div
-                    key={barrio.codi_barri!}
-                    className={`p-3 border rounded-lg cursor-pointer transition-all ${
-                      barriosSeleccionados.includes(barrio.codi_barri!)
-                        ? 'border-blue-500 bg-blue-50'
-                        : 'border-gray-300 hover:border-gray-400'
-                    }`}
-                    onClick={() => toggleBarrio(barrio.codi_barri!)}
-                  >
-                    <div className="flex items-center justify-between">
-                      <div>
-                        <span className="font-medium">{barrio.nom_barri}</span>
-                        <p className="text-xs text-gray-500">{barrio.nom_districte}</p>
-                      </div>
-                      {barriosSeleccionados.includes(barrio.codi_barri!) && (
-                        <Badge variant="default">Seleccionado</Badge>
-                      )}
+              {barriosData.map((barrio) => (
+                <div
+                  key={barrio.codi_barri}
+                  className={`p-3 border rounded-lg cursor-pointer transition-all ${
+                    barriosSeleccionados.includes(barrio.codi_barri)
+                      ? 'border-blue-500 bg-blue-50'
+                      : 'border-gray-300 hover:border-gray-400'
+                  }`}
+                  onClick={() => toggleBarrio(barrio.codi_barri)}
+                >
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <span className="font-medium">{barrio.nom_barri}</span>
+                      <p className="text-xs text-gray-500">{barrio.nom_districte}</p>
                     </div>
+                    {barriosSeleccionados.includes(barrio.codi_barri) && (
+                      <Badge variant="default">Seleccionado</Badge>
+                    )}
                   </div>
-                ))
-              )}
+                </div>
+              ))}
             </div>
           </div>
 
@@ -320,15 +261,6 @@ const CompararModal: React.FC<CompararModalProps> = ({ isOpen, onClose }) => {
               <div className="flex justify-end space-x-3 pt-4 border-t">
                 <Button variant="outline" onClick={onClose}>
                   Cerrar
-                </Button>
-                <Button 
-                  onClick={() => {
-                    // Aquí puedes agregar lógica para exportar la comparación
-                    console.log('Exportar comparación:', getBarriosComparar());
-                  }}
-                  disabled={barriosSeleccionados.length === 0}
-                >
-                  Exportar Comparación
                 </Button>
               </div>
             </>

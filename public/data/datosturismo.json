@@ -188,5 +188,195 @@
         "desembre": "28%"
       }
     }
+  },
+  {
+    "codi_barri": "06",
+    "nom_barri": "La Sagrada Família",
+    "codi_districte": "02",
+    "nom_districte": "Eixample",
+    "poblacio_2024": 18000,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 35000,
+        "febrer": 42000,
+        "març": 50000,
+        "abril": 60000,
+        "maig": 75000,
+        "juny": 90000,
+        "juliol": 110000,
+        "agost": 120000,
+        "setembre": 95000,
+        "octubre": 70000,
+        "novembre": 50000,
+        "desembre": 40000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "45%",
+        "febrer": "55%",
+        "març": "68%",
+        "abril": "82%",
+        "maig": "95%",
+        "juny": "100%",
+        "juliol": "100%",
+        "agost": "100%",
+        "setembre": "95%",
+        "octubre": "85%",
+        "novembre": "68%",
+        "desembre": "52%"
+      }
+    }
+  },
+  {
+    "codi_barri": "07",
+    "nom_barri": "El Poble-sec",
+    "codi_districte": "03",
+    "nom_districte": "Sants-Montjuïc",
+    "poblacio_2024": 35000,
+    "densitat_hab_km2": 28000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 8000,
+        "febrer": 10000,
+        "març": 12000,
+        "abril": 15000,
+        "maig": 18000,
+        "juny": 22000,
+        "juliol": 28000,
+        "agost": 32000,
+        "setembre": 25000,
+        "octubre": 18000,
+        "novembre": 12000,
+        "desembre": 9000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "12%",
+        "febrer": "15%",
+        "març": "18%",
+        "abril": "22%",
+        "maig": "28%",
+        "juny": "35%",
+        "juliol": "42%",
+        "agost": "48%",
+        "setembre": "38%",
+        "octubre": "28%",
+        "novembre": "18%",
+        "desembre": "15%"
+      }
+    }
+  },
+  {
+    "codi_barri": "08",
+    "nom_barri": "La Marina del Port",
+    "codi_districte": "03",
+    "nom_districte": "Sants-Montjuïc",
+    "poblacio_2024": 12000,
+    "densitat_hab_km2": 8500,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 5000,
+        "febrer": 6000,
+        "març": 8000,
+        "abril": 10000,
+        "maig": 12000,
+        "juny": 15000,
+        "juliol": 18000,
+        "agost": 20000,
+        "setembre": 16000,
+        "octubre": 12000,
+        "novembre": 8000,
+        "desembre": 6000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "8%",
+        "febrer": "10%",
+        "març": "12%",
+        "abril": "15%",
+        "maig": "18%",
+        "juny": "22%",
+        "juliol": "28%",
+        "agost": "32%",
+        "setembre": "25%",
+        "octubre": "18%",
+        "novembre": "12%",
+        "desembre": "10%"
+      }
+    }
+  },
+  {
+    "codi_barri": "09",
+    "nom_barri": "Gràcia",
+    "codi_districte": "04",
+    "nom_districte": "Gràcia",
+    "poblacio_2024": 42000,
+    "densitat_hab_km2": 32000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 15000,
+        "febrer": 18000,
+        "març": 22000,
+        "abril": 28000,
+        "maig": 35000,
+        "juny": 42000,
+        "juliol": 50000,
+        "agost": 55000,
+        "setembre": 45000,
+        "octubre": 32000,
+        "novembre": 22000,
+        "desembre": 18000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "22%",
+        "febrer": "28%",
+        "març": "35%",
+        "abril": "42%",
+        "maig": "52%",
+        "juny": "62%",
+        "juliol": "75%",
+        "agost": "82%",
+        "setembre": "68%",
+        "octubre": "48%",
+        "novembre": "32%",
+        "desembre": "25%"
+      }
+    }
+  },
+  {
+    "codi_barri": "10",
+    "nom_barri": "El Camp d'en Grassot",
+    "codi_districte": "04",
+    "nom_districte": "Gràcia",
+    "poblacio_2024": 28000,
+    "densitat_hab_km2": 24000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 8000,
+        "febrer": 10000,
+        "març": 12000,
+        "abril": 15000,
+        "maig": 18000,
+        "juny": 22000,
+        "juliol": 28000,
+        "agost": 32000,
+        "setembre": 25000,
+        "octubre": 18000,
+        "novembre": 12000,
+        "desembre": 9000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "15%",
+        "febrer": "18%",
+        "març": "22%",
+        "abril": "28%",
+        "maig": "35%",
+        "juny": "42%",
+        "juliol": "52%",
+        "agost": "58%",
+        "setembre": "45%",
+        "octubre": "32%",
+        "novembre": "22%",
+        "desembre": "18%"
+      }
+    }
   }
 ]

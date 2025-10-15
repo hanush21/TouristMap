@@ -63,5 +63,70 @@
     "contaminacion_sonora": 58,
     "densidad_transporte": 82,
     "hoteles": 35
+  },
+  {
+    "codi_barri": "06",
+    "nom_barri": "La Sagrada Família",
+    "nom_districte": "Eixample",
+    "coordenadas": {
+      "lat": 41.4036,
+      "lng": 2.1744
+    },
+    "nivel_ruido": 78,
+    "contaminacion_sonora": 72,
+    "densidad_transporte": 88,
+    "hoteles": 68
+  },
+  {
+    "codi_barri": "07",
+    "nom_barri": "El Poble-sec",
+    "nom_districte": "Sants-Montjuïc",
+    "coordenadas": {
+      "lat": 41.3744,
+      "lng": 2.1636
+    },
+    "nivel_ruido": 62,
+    "contaminacion_sonora": 55,
+    "densidad_transporte": 75,
+    "hoteles": 22
+  },
+  {
+    "codi_barri": "08",
+    "nom_barri": "La Marina del Port",
+    "nom_districte": "Sants-Montjuïc",
+    "coordenadas": {
+      "lat": 41.3656,
+      "lng": 2.1544
+    },
+    "nivel_ruido": 58,
+    "contaminacion_sonora": 52,
+    "densidad_transporte": 68,
+    "hoteles": 18
+  },
+  {
+    "codi_barri": "09",
+    "nom_barri": "Gràcia",
+    "nom_districte": "Gràcia",
+    "coordenadas": {
+      "lat": 41.4022,
+      "lng": 2.1567
+    },
+    "nivel_ruido": 55,
+    "contaminacion_sonora": 48,
+    "densidad_transporte": 72,
+    "hoteles": 42
+  },
+  {
+    "codi_barri": "10",
+    "nom_barri": "El Camp d'en Grassot",
+    "nom_districte": "Gràcia",
+    "coordenadas": {
+      "lat": 41.4089,
+      "lng": 2.1633
+    },
+    "nivel_ruido": 52,
+    "contaminacion_sonora": 45,
+    "densidad_transporte": 65,
+    "hoteles": 28
   }
 ]
