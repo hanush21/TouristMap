@@ -1,11 +1,16 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   "/api/sendForms/route": "app/api/sendForms/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/forms/page": "app/forms/page.js",
 =======
+=======
+  "/api/sendForms/route": "app/api/sendForms/route.js",
+>>>>>>> Stashed changes
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/forms/page": "app/forms/page.js",
   "/map/page": "app/map/page.js",
 >>>>>>> main
   "/page": "app/page.js"
