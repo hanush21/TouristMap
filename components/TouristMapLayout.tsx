@@ -28,7 +28,7 @@ interface Filters {
   nivelRuido: boolean;
 
   densidadTuristas: boolean;
-  densidadTransporte: boolean;
+  transporte: boolean;
 
 }
 
@@ -67,11 +67,9 @@ function ValorarModal({
 const TouristMapLayout: React.FC = () => {
   const [filters, setFilters] = useState<Filters>({
     hoteles: false,
-
+    transporte: false,
     nivelRuido: false,
-
     densidadTuristas: false,
-    densidadTransporte: false,
 
   });
 
