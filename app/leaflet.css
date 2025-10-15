@@ -1,0 +1,65 @@
+/* Leaflet CSS overrides for better integration with Tailwind */
+.leaflet-container {
+  font-family: inherit;
+  z-index: 1 !important; /* Reducir z-index del mapa */
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.leaflet-popup-content {
+  margin: 12px;
+  line-height: 1.5;
+}
+
+.leaflet-popup-tip {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Asegurar que los controles del mapa tengan z-index apropiado */
+.leaflet-control-container {
+  z-index: 2 !important;
+}
+
+.leaflet-control-zoom {
+  z-index: 2 !important;
+}
+
+/* Custom marker styles */
+.custom-marker-hotel {
+  background-color: #3b82f6;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.custom-marker-transport {
+  background-color: #10b981;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.custom-marker-noise {
+  background-color: #ef4444;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .leaflet-popup-content {
+    margin: 8px;
+    font-size: 14px;
+  }
+  
+  .leaflet-control-zoom {
+    margin: 10px !important;
+  }
+}

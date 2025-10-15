@@ -1,0 +1,39 @@
+/* Z-index hierarchy for proper layering */
+.map-container {
+  z-index: 1 !important;
+}
+
+.slider-container {
+  z-index: 50 !important;
+}
+
+.mobile-overlay {
+  z-index: 50 !important;
+}
+
+.modal-backdrop {
+  z-index: 100 !important;
+}
+
+.modal-content {
+  z-index: 101 !important;
+}
+
+/* Ensure Leaflet controls stay above map but below modals */
+.leaflet-control-container {
+  z-index: 10 !important;
+}
+
+.leaflet-popup {
+  z-index: 20 !important;
+}
+
+/* Force z-index for specific elements */
+[data-leaflet-container] {
+  z-index: 1 !important;
+}
+
+/* Ensure modals are always on top */
+.modal-overlay {
+  z-index: 9999 !important;
+}

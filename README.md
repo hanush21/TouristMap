@@ -1,36 +1,175 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🗺️ Mapa Turístico Barcelona
 
-## Getting Started
+Una aplicación web interactiva para visualizar información turística de Barcelona con filtros avanzados y análisis de densidad por barrios.
 
-First, run the development server:
+## 🚀 Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### ✨ Funcionalidades Principales
+- **Mapa Interactivo**: Visualización de Barcelona con Leaflet
+- **Mapa de Calor**: Densidad turística ajustable con slider
+- **Filtros Avanzados**: Hoteles, transporte, ruido, densidad de habitantes, etc.
+- **Comparación de Barrios**: Modal para comparar métricas entre barrios
+- **Sistema de Suscripción**: Formulario para recibir actualizaciones
+- **Diseño Responsive**: Adaptado para móvil y desktop
+
+### 🎯 Filtros Disponibles
+- 🏨 **Hoteles**: Ubicaciones y cantidad de hoteles por barrio
+- 🚇 **Transporte**: Densidad de transporte público
+- 🔊 **Nivel de Ruido**: Contaminación sonora por zonas
+- 👥 **Densidad de Habitantes**: Población por km²
+- 🎒 **Densidad de Turistas**: Actividad turística (controlada por slider)
+- 🚌 **Densidad de Transporte**: Accesibilidad del transporte público
+- 🌡️ **Contaminación Sonora**: Niveles de ruido ambiental
+
+### 📊 Datos Utilizados
+- **Datos Reales**: Información oficial de barrios de Barcelona
+- **Coordenadas**: Ubicaciones precisas de cada barrio
+- **Métricas Turísticas**: Datos mensuales de turismo por distrito
+- **Información de Transporte**: Metro, bus, tranvía por barrio
+
+## 🛠️ Tecnologías
+
+### Frontend
+- **Next.js 15** - Framework React
+- **TypeScript** - Tipado estático
+- **Tailwind CSS** - Estilos
+- **shadcn/ui** - Componentes UI
+- **Leaflet** - Mapas interactivos
+- **React-Leaflet** - Integración React-Leaflet
+
+### Backend (Futuro)
+- **Java** - Backend en desarrollo
+- **Axios** - Cliente HTTP configurado
+
+## 📁 Estructura del Proyecto
+
+```
+TouristMap/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── mapa/
+│   │   └── page.tsx
+│   └── leaflet.css
+├── components/
+│   ├── ui/
+│   │   ├── badge.tsx
+│   │   ├── button.tsx
+│   │   └── card.tsx
+│   ├── MapComponent.tsx
+│   ├── SliderComponent.tsx
+│   ├── CompararModal.tsx
+│   ├── SuscribirModal.tsx
+│   ├── EquipoModal.tsx
+│   └── TouristMapLayout.tsx
+├── data/
+│   ├── datosturismo.json
+│   ├── coordenadas-barrios.json
+│   └── transporte-barrios.json
+├── lib/
+│   ├── utils.ts
+│   └── api.ts
+└── public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Instalación y Uso
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerrequisitos
+- Node.js 18+
+- npm o yarn
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Instalación
+```bash
+# Clonar el repositorio
+git clone [url-del-repositorio]
+cd TouristMap
 
-## Learn More
+# Instalar dependencias
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+# Ejecutar en modo desarrollo
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Acceso
+- **Página Principal**: `http://localhost:3000`
+- **Mapa Interactivo**: `http://localhost:3000/mapa`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎮 Cómo Usar
 
-## Deploy on Vercel
+### 1. Navegación
+- **Desktop**: Usa los botones en el header y el sidebar derecho
+- **Mobile**: Usa el menú hamburguesa (☰ Filtros)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 2. Filtros del Mapa
+- Activa/desactiva filtros según tus necesidades
+- El slider controla la intensidad del mapa de calor turístico
+- Los marcadores aparecen según los filtros seleccionados
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 3. Comparación de Barrios
+- Haz clic en "Comparar" para abrir el modal
+- Selecciona múltiples barrios
+- Visualiza métricas comparativas en tabla
+
+### 4. Suscripción
+- Haz clic en "Suscribir" para recibir actualizaciones
+- Completa el formulario con tus preferencias
+- Selecciona barrios de interés
+
+## 📊 Datos y Métricas
+
+### Fuentes de Datos
+- **datosturismo.json**: Datos oficiales de turismo por barrio
+- **coordenadas-barrios.json**: Ubicaciones y métricas adicionales
+- **transporte-barrios.json**: Información de transporte público
+
+### Métricas Calculadas
+- **Densidad Turística**: Basada en puntos de interés y datos oficiales
+- **Densidad de Habitantes**: Población por km² normalizada
+- **Nivel de Ruido**: Datos simulados por zona
+- **Accesibilidad**: Densidad de transporte público
+
+## 🔧 Configuración
+
+### Variables de Entorno
+```env
+NEXT_PUBLIC_API_URL=http://localhost:3001/api
+```
+
+### Personalización
+- **Colores del Mapa**: Modifica `getHeatmapColor()` en `MapComponent.tsx`
+- **Filtros**: Agrega nuevos filtros en `TouristMapLayout.tsx`
+- **Datos**: Actualiza archivos JSON en `/data`
+
+## 🤝 Contribución
+
+### Equipo de Desarrollo
+- **Ana García** - Project Manager
+- **Carlos Rodríguez** - Frontend Developer
+- **María López** - Backend Developer
+- **David Martínez** - GIS Specialist
+- **Laura Fernández** - UX/UI Designer
+- **Javier Ruiz** - Data Analyst
+
+### Roadmap
+- [ ] Integración con backend Java
+- [ ] Autenticación de usuarios
+- [ ] Más tipos de datos (tráfico, eventos)
+- [ ] Exportación de datos
+- [ ] Notificaciones push
+
+## 📄 Licencia
+
+MIT License - Ver archivo LICENSE para más detalles.
+
+## 📞 Contacto
+
+- **Proyecto**: Hackathon Taula3
+- **Ciudad**: Barcelona, España
+- **Versión**: 1.0.0
+- **Estado**: En desarrollo activo
+
+---
+
+*Desarrollado con ❤️ para mejorar la experiencia turística de Barcelona*
