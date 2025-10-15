@@ -24,12 +24,12 @@ const MapComponent = dynamic(() => import('./Map/MapComponent'), {
 
 interface Filters {
   hoteles: boolean;
-  transporte: boolean;
+
   nivelRuido: boolean;
-  densidadHabitantes: boolean;
+
   densidadTuristas: boolean;
   densidadTransporte: boolean;
-  contaminacionSonora: boolean;
+
 }
 
 // ================= ValorarModal (NUEVO) =================
@@ -67,12 +67,12 @@ function ValorarModal({
 const TouristMapLayout: React.FC = () => {
   const [filters, setFilters] = useState<Filters>({
     hoteles: false,
-    transporte: false,
+
     nivelRuido: false,
-    densidadHabitantes: false,
+
     densidadTuristas: false,
     densidadTransporte: false,
-    contaminacionSonora: false
+
   });
 
   const [sliderValue, setSliderValue] = useState(50);
