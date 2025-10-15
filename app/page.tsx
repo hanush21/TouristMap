@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
+
 export default function Home() {
   return (
     <div className="relative min-h-dvh overflow-hidden bg-background">
