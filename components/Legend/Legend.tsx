@@ -7,7 +7,7 @@ const Legend: React.FC = () => {
       <div className={styles.legendTitle}>Población</div>
       <div className={styles.legendScale}>
         <div className={styles.legendItem}>
-          <span className={styles.legendColor} style={{ background: '#abd9e9' }}></span>
+          <span className={styles.legendColor} style={{ background: '#7DFE26' }}></span>
           <span className={styles.legendLabel}>Baja</span>
         </div>
         <div className={styles.legendItem}>

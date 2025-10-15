@@ -100,7 +100,7 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
   return (
     <div className={`w-full ${className}`}>
       {label && (
-        <label className="block text-sm font-medium text-gray-700 mb-2">
+        <label className="text-[#333] uppercase tracking-[0.5px] mb-2 text-[12px] font-semibold leading-[2.5em]">
           {label}
         </label>
       )}

@@ -23,7 +23,7 @@
 .legendScale {
   display: flex;
   gap: 4px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .legendItem {
