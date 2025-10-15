@@ -13,3 +13,6 @@
 .next/server/middleware-build-manifest.js
 .next/server/next-font-manifest.js
 .next/server/next-font-manifest.json
+/.next
+*.json
+*.js
