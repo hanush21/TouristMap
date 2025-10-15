@@ -321,7 +321,7 @@ const TopBarriosTuristicos: React.FC = () => {
           
           return (
           <li
-            key={barrio.codi_barri}
+            key={`${barrio.codi_barri}-${index}-${barrio.tourismPercentage}`}
             className="flex justify-between items-center py-2 hover:bg-blue-50/60 rounded-md transition-all"
           >
             <div className="flex items-center gap-2">
