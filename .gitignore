@@ -1,3 +1,14 @@
 /node_modules
 .env
 /.next
+.next
+/.next/app-build-manifest.json
+.next/app-build-manifest.json
+.next/app-build-manifest.json
+.next/build-manifest.json
+.next/package.json
+.next/prerender-manifest.json
+.next/server/app-paths-manifest.json
+.next/server/middleware-build-manifest.js
+.next/server/next-font-manifest.js
+.next/server/next-font-manifest.json
