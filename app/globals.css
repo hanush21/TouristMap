@@ -120,3 +120,17 @@
     @apply bg-background text-foreground;
   }
 }
+/* Ocultar marca de agua de Leaflet */
+.leaflet-control-attribution {
+  display: none;
+}
+
+/* Cambiar cursor sobre círculos */
+.leaflet-interactive {
+  cursor: pointer;
+}
+
+/* Estilo del contenedor */
+.leaflet-container {
+  background: #1a1a1a; /* Para mapas oscuros */
+}
