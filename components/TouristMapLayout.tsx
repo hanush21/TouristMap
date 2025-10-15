@@ -24,7 +24,7 @@ const MapComponent = dynamic(() => import('./Map/MapComponent'), {
 
 interface Filters {
   hoteles: boolean;
-  transporte: boolean;
+
   nivelRuido: boolean;
   densidadTuristas: boolean;
 }

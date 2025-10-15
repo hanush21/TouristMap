@@ -66,8 +66,8 @@ const CompararModal: React.FC<CompararModalProps> = ({ isOpen, onClose }) => {
       setError(null);
       
       const [turismoResponse, coordenadasResponse] = await Promise.all([
-        fetch('/data/datosturismo.json').then(res => res.json()),
-        fetch('/data/coordenadas-barrios.json').then(res => res.json())
+        fetch('../data/datosturismo.json').then(res => res.json()),
+        fetch('../data/coordenadas-barrios.json').then(res => res.json())
       ]);
       
       setBarriosData(turismoResponse);
