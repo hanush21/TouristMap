@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useRef, useCallback } from 'react';
-import touristMonthsData from '../lib/data/meses.json';
+import touristMonthsData from '../data/meses.json';
 
 interface MonthData {
   month: number;
