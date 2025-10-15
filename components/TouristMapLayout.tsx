@@ -11,6 +11,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import TopBarriosTuristicos from './TopBarriosTuristicos';
 // ⬇️ Importa el formulario principal y su lista por defecto
 import TouristForm, { DEFAULT_NEIGHBORHOODS } from '@/components/forms/forms';
+import { mapAPI } from '@/lib/api';
 
 // Importación dinámica del mapa sin SSR (NO CAMBIADO)
 const MapComponent = dynamic(() => import('./Map/MapComponent'), {
@@ -32,28 +33,59 @@ interface Filters {
 function ValorarModal({
   isOpen,
   onClose,
-  neighborhoods,
 }: {
   isOpen: boolean;
   onClose: () => void;
-  neighborhoods: string[];
 }) {
+  const [neighborhoods, setNeighborhoods] = React.useState<string[]>(DEFAULT_NEIGHBORHOODS);
+  const [loading, setLoading] = React.useState(false);
+
+  // Cargar barrios desde la API cuando se abre el modal
+  React.useEffect(() => {
+    if (isOpen) {
+      loadNeighborhoods();
+    }
+  }, [isOpen]);
+
+  const loadNeighborhoods = async () => {
+    try {
+      setLoading(true);
+      const response = await mapAPI.getCoordinatesData();
+      const neighborhoodsFromAPI = response.data.map((barrio: any) => barrio.nom_barri);
+      setNeighborhoods(neighborhoodsFromAPI);
+    } catch (error) {
+      console.error('Error cargando barrios desde API:', error);
+      // Mantener los barrios por defecto si hay error
+      setNeighborhoods(DEFAULT_NEIGHBORHOODS);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   if (!isOpen) return null;
 
   return (
     <div className="fixed inset-0 bg-black/50 z-[3000] flex items-center justify-center p-4">
-      <Card className="w-full max-w-2xl max-h-[90vh] overflow-y-auto border border-border/60 shadow-lg">
+      <Card className="w-full max-w-2xl max-h-[90vh] overflow-y-auto border border-border/60 shadow-lg relative z-[3001]">
         <div className="flex items-center justify-between p-6 pb-0">
           <h2 className="text-xl font-semibold">Valorar zona</h2>
           <Button variant="outline" size="sm" onClick={onClose}>✕</Button>
         </div>
-        <CardContent className="pb-6 pt-4">
-          <TouristForm
-            submitUrl="/api/sendform"
-            newsletterUrl="/api/newsletter"
-            neighborhoods={neighborhoods}
-            defaultValues={{}}
-          />
+        <CardContent className="pb-6 pt-4 relative z-[3001]">
+          {loading ? (
+            <div className="flex items-center justify-center py-8">
+              <div className="text-gray-500">Cargando barrios...</div>
+            </div>
+          ) : (
+            <div className="relative z-[3001]">
+              <TouristForm
+                submitUrl="/api/sendform"
+                newsletterUrl="/api/newsletter"
+                neighborhoods={neighborhoods}
+                defaultValues={{}}
+              />
+            </div>
+          )}
         </CardContent>
       </Card>
     </div>
@@ -311,7 +343,6 @@ const TouristMapLayout: React.FC = () => {
       <ValorarModal
         isOpen={activeModal === 'valorar'}
         onClose={closeModal}
-        neighborhoods={DEFAULT_NEIGHBORHOODS}
       />
     </div>
   );

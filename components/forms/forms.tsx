@@ -196,7 +196,7 @@ export default function TouristForm({
                                             <SelectTrigger>
                                                 <SelectValue placeholder="Selecciona un barrio" />
                                             </SelectTrigger>
-                                            <SelectContent>{NLIST.map((b) => (
+                                            <SelectContent className="z-[3100]">{NLIST.map((b) => (
                                                 <SelectItem key={b} value={b}>
                                                     {b}
                                                 </SelectItem>
@@ -223,7 +223,7 @@ export default function TouristForm({
 
             {/* Newsletter dialog */}
             <Dialog open={openNewsletter} onOpenChange={setOpenNewsletter}>
-                <DialogContent>
+                <DialogContent className="z-[3200]">
                     <DialogHeader>
                         <DialogTitle>¿Quieres recibir novedades por email?</DialogTitle>
                     </DialogHeader>
