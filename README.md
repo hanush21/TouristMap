@@ -36,10 +36,7 @@ npm run dev
 - 🏨 **Hoteles**: Ubicaciones y cantidad de hoteles por barrio
 - 🚇 **Transporte**: Densidad de transporte público
 - 🔊 **Nivel de Ruido**: Contaminación sonora por zonas
-- 👥 **Densidad de Habitantes**: Población por km²
 - 🎒 **Densidad de Turistas**: Actividad turística (controlada por slider)
-- 🚌 **Densidad de Transporte**: Accesibilidad del transporte público
-- 🌡️ **Contaminación Sonora**: Niveles de ruido ambiental
 
 ### 📊 Datos Utilizados
 - **Datos Reales**: Información oficial de barrios de Barcelona
@@ -112,7 +109,7 @@ npm run dev
 
 ### Acceso
 - **Página Principal**: `http://localhost:3000`
-- **Mapa Interactivo**: `http://localhost:3000/mapa`
+- **Mapa Interactivo**: `http://localhost:3000/map`
 
 ## 🎮 Cómo Usar
 
@@ -164,19 +161,12 @@ NEXT_PUBLIC_API_URL=http://localhost:8080/api
 ## 🤝 Contribución
 
 ### Equipo de Desarrollo
-- **Ana García** - Project Manager
-- **Carlos Rodríguez** - Frontend Developer
-- **María López** - Backend Developer
-- **David Martínez** - GIS Specialist
-- **Laura Fernández** - UX/UI Designer
-- **Javier Ruiz** - Data Analyst
-
-### Roadmap
-- [ ] Integración con backend Java
-- [ ] Autenticación de usuarios
-- [ ] Más tipos de datos (tráfico, eventos)
-- [ ] Exportación de datos
-- [ ] Notificaciones push
+- **Marc Guillem Palacios** - Backend Developer
+- **Cristiana Sollini** - Frontend Developer
+- **Danilo Espinosa** - Frontend Developer
+- **Richard Hernández Montero** - Frontend Developer
+- **Albert Grau** - Backend Developer
+- **Luis Ricardo Gutiérrez Soliz** - Backend Developer
 
 ## 📄 Licencia
 
