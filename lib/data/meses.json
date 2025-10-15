@@ -1,0 +1,98 @@
+[
+  {
+    "month": 1,
+    "name": "Enero",
+    "tourists": 75,
+    "season": "winter",
+    "isHoliday": true,
+    "description": "Navidades y Año Nuevo"
+  },
+  {
+    "month": 2,
+    "name": "Febrero",
+    "tourists": 45,
+    "season": "winter",
+    "isHoliday": false,
+    "description": "Temporada baja"
+  },
+  {
+    "month": 3,
+    "name": "Marzo",
+    "tourists": 65,
+    "season": "spring",
+    "isHoliday": false,
+    "description": "Inicio de primavera"
+  },
+  {
+    "month": 4,
+    "name": "Abril",
+    "tourists": 85,
+    "season": "spring",
+    "isHoliday": true,
+    "description": "Semana Santa"
+  },
+  {
+    "month": 5,
+    "name": "Mayo",
+    "tourists": 70,
+    "season": "spring",
+    "isHoliday": false,
+    "description": "Primavera"
+  },
+  {
+    "month": 6,
+    "name": "Junio",
+    "tourists": 90,
+    "season": "summer",
+    "isHoliday": false,
+    "description": "Inicio del verano"
+  },
+  {
+    "month": 7,
+    "name": "Julio",
+    "tourists": 100,
+    "season": "summer",
+    "isHoliday": false,
+    "description": "Pico de verano"
+  },
+  {
+    "month": 8,
+    "name": "Agosto",
+    "tourists": 100,
+    "season": "summer",
+    "isHoliday": false,
+    "description": "Pico de verano"
+  },
+  {
+    "month": 9,
+    "name": "Septiembre",
+    "tourists": 80,
+    "season": "autumn",
+    "isHoliday": false,
+    "description": "Fin del verano"
+  },
+  {
+    "month": 10,
+    "name": "Octubre",
+    "tourists": 60,
+    "season": "autumn",
+    "isHoliday": false,
+    "description": "Otoño"
+  },
+  {
+    "month": 11,
+    "name": "Noviembre",
+    "tourists": 50,
+    "season": "autumn",
+    "isHoliday": false,
+    "description": "Temporada baja"
+  },
+  {
+    "month": 12,
+    "name": "Diciembre",
+    "tourists": 85,
+    "season": "winter",
+    "isHoliday": true,
+    "description": "Navidades"
+  }
+]

@@ -8,7 +8,6 @@ import SuscribirModal from '@/components/SuscribirModal';
 import EquipoModal from '@/components/EquipoModal';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import Legend from '@/components/Legend/Legend';
 
 // ⬇️ Importa el formulario principal y su lista por defecto
 import TouristForm, { DEFAULT_NEIGHBORHOODS } from '@/components/forms/forms';
@@ -176,7 +175,6 @@ const TouristMapLayout: React.FC = () => {
                     />
                   </div>
                 </div>
-                <Legend />
               </div> 
             )}
           </div>

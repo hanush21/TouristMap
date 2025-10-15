@@ -43,7 +43,7 @@ export default function Home() {
 
           <div className="mt-10 flex items-center justify-center">
             <Button asChild size="lg" className="px-7 py-6 rounded-xl text-base font-medium">
-              <Link href="/mapa">Ver población y actividad</Link>
+              <Link href="/map">Ver población y actividad</Link>
             </Button>
           </div>
         </motion.section>
