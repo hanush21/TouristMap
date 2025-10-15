@@ -35,7 +35,7 @@ export async function POST(req: Request) {
         const payload = parsed.data;
 
 
-        const res = await backend.post("/zone-feedback", payload);
+        const res = await backend.post("/formularios", payload);
         return NextResponse.json(res.data, { status: res.status });
     } catch (err) {
         const { status, data } = parseAxiosError(err);
