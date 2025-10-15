@@ -164,8 +164,8 @@ const TouristMapLayout: React.FC = () => {
             {/* Slider flotante sobre el mapa (NO CAMBIADO) */}
             {filters.densidadTuristas && (
               <div className="relative">
-                <div className="fixed bottom-4 left-4 z-[3000] w-1/2">
-                  <div className="bg-white/80 p-1 md:p-4 shadow-lg rounded-md backdrop-blur-md">
+                <div className="fixed bottom-4 left-4 z-[30] w-2/3">
+                  <div className="bg-white/60 p-1 md:p-4 shadow-lg rounded-md backdrop-blur-md">
                     <SliderComponent
                       value={sliderValue}
                       onChange={setSliderValue}

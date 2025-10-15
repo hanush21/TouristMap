@@ -140,13 +140,12 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
   }
 
   return (
-    <div className={`w-full ${className}`}>
+    <div className="w-full">
       {label && (
         <div className='flex justify-between items-center mb-2'>
           <span className="text-[#333] uppercase tracking-[0.5px] text-[12px] font-semibold">
             {label}</span>
-          {/* 
-          <span className="font-semibold text-blue-600">{currentMonth?.name || 'Enero'}</span> */}
+
         </div>
       )}
       
@@ -183,7 +182,7 @@ const SliderComponent: React.FC<SliderComponentProps> = ({
           })}
         </div>
         
-        {/* ✅ CORREGIDO: Fill con segmentos de colores de estaciones */}
+
         <div className="absolute top-0 h-3 rounded-l-full overflow-hidden transition-all duration-300" style={{ width: `${fillPercentage}%` }}>
           {monthsData.slice(0, 12).map((month, index) => {
             const segmentWidth = 100 / 12; // Cada mes = 8.333% del ancho
