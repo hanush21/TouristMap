@@ -14,7 +14,7 @@ const LoadingComponent = () => (
 );
 
 // Importación dinámica del mapa sin SSR
-const MapComponent = dynamic(() => import('./MapComponent'), {
+const MapComponent = dynamic(() => import('./Map/MapComponent'), {
   ssr: false,
   loading: () => <LoadingComponent />
 });

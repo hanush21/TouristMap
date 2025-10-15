@@ -10,7 +10,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 // Importación dinámica del mapa sin SSR
-const MapComponent = dynamic(() => import('./MapComponent'), {
+const MapComponent = dynamic(() => import('./Map/MapComponent'), {
   ssr: false,
   loading: () => (
     <div className="w-full h-full bg-gray-200 flex items-center justify-center">
@@ -129,33 +129,32 @@ const TouristMapLayout: React.FC = () => {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-6">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-6 h-[calc(100vh-6rem)] md:h-[calc(100vh-8rem)]">
-          {/* Map Area */}
-          <div className="lg:col-span-3 relative">
-            <Card className="h-full">
-              <CardContent className="p-0 h-full relative">
-                <MapComponent filters={filters} sliderValue={sliderValue} />
-                
-                {/* Slider */}
-                <div className="absolute bottom-2 md:bottom-4 left-2 md:left-4 right-2 md:right-4 lg:right-4 z-50 slider-container">
-                  <div className="bg-white p-3 md:p-4 rounded-lg shadow-lg">
-                    <SliderComponent
-                      value={sliderValue}
-                      onChange={setSliderValue}
-                      min={0}
-                      max={100}
-                      label="Densidad Turística"
-                    />
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+      <main className="relative">
+        <div className="grid grid-cols-1 lg:grid-cols-4 h-[calc(100vh-4rem)]">
+          {/* Map Area - Sin bordes redondeados */}
+          <div className="lg:col-span-3 relative h-full overflow-hidden">
+            <MapComponent filters={filters} sliderValue={sliderValue} />
+            
+            {/* Slider flotante sobre el mapa */}
+            {filters.densidadTuristas && (
+            <div className="fixed bottom-4 left-4 z-[3000] w-1/2">
+              <div className="bg-white/80 p-1 md:p-4 shadow-lg rounded-md backdrop-blur-md">
+                <SliderComponent
+                  value={sliderValue}
+                  onChange={setSliderValue}
+                  min={0}
+                  max={100}
+                  label="Densidad Turística"
+                />
+              </div>
+            </div>
+            )}
           </div>
+          
 
           {/* Desktop Sidebar */}
-          <div className="hidden lg:block">
-            <div className="space-y-6">
+          <div className="hidden lg:block bg-white border-l">
+            <div className="p-6 space-y-6 h-full overflow-y-auto">
               {/* Filters */}
               <Card>
                 <CardContent className="p-6">
@@ -215,7 +214,7 @@ const TouristMapLayout: React.FC = () => {
 
       {/* Mobile Filters Overlay */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden mobile-overlay">
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden">
           <div className="fixed right-0 top-0 h-full w-full sm:w-80 bg-white shadow-xl z-50">
             <div className="p-4 sm:p-6 h-full overflow-y-auto">
               <div className="flex items-center justify-between mb-4 sm:mb-6">
