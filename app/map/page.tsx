@@ -1,16 +1,5 @@
-import dynamic from 'next/dynamic';
-import 'leaflet/dist/leaflet.css';
-import 'rc-slider/assets/index.css';
+import TouristMapLayout from '@/components/TouristMapLayout';
 
-
-const Mapa = dynamic(() => import('../../components/Map/___OLD___Map'), {
-  ssr: true,
-
-});
-export default function Map() {
-  return (
-    <div>
-      <Mapa />
-    </div>
-  );
+export default function MapaPage() {
+  return <TouristMapLayout />;
 }

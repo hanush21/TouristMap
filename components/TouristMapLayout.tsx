@@ -8,8 +8,7 @@ import SuscribirModal from '@/components/SuscribirModal';
 import EquipoModal from '@/components/EquipoModal';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import Legend from '@/components/Legend/Legend';
-
+import TopBarriosTuristicos from './TopBarriosTuristicos';
 // ⬇️ Importa el formulario principal y su lista por defecto
 import TouristForm, { DEFAULT_NEIGHBORHOODS } from '@/components/forms/forms';
 
@@ -165,8 +164,8 @@ const TouristMapLayout: React.FC = () => {
             {/* Slider flotante sobre el mapa (NO CAMBIADO) */}
             {filters.densidadTuristas && (
               <div className="relative">
-                <div className="fixed bottom-4 left-4 z-[3000] w-1/2">
-                  <div className="bg-white/80 p-1 md:p-4 shadow-lg rounded-md backdrop-blur-md">
+                <div className="fixed bottom-4 left-4 z-[30] w-2/3">
+                  <div className="bg-white/60 p-1 md:p-4 shadow-lg rounded-md backdrop-blur-md">
                     <SliderComponent
                       value={sliderValue}
                       onChange={setSliderValue}
@@ -176,37 +175,47 @@ const TouristMapLayout: React.FC = () => {
                     />
                   </div>
                 </div>
-                <Legend />
               </div> 
             )}
           </div>
           
-          {/* Desktop Sidebar (NO CAMBIADO salvo texto) */}
+
           <div className="hidden lg:block bg-white border-l">
-            <div className="p-6 space-y-6 h-full overflow-y-auto">
-              {/* Filters */}
-              <Card>
-                <CardContent className="p-6">
-                  <h3 className="text-lg font-semibold mb-4">Filtros Mapa</h3>
-                  <div className="space-y-3">
-                    {Object.entries(filters).map(([key, value]) => (
-                      <label key={key} className="flex items-center space-x-3 cursor-pointer">
-                        <input
-                          type="checkbox"
-                          checked={value}
-                          onChange={() => toggleFilter(key as keyof Filters)}
-                          className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-                        />
-                        <span className="text-sm capitalize">
-                          {key.replace(/([A-Z])/g, ' $1').trim()}
-                        </span>
-                      </label>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+          <div className="p-6 space-y-6 h-full overflow-y-auto">
+            {/* Filtros */}
+          <Card className="border border-gray-100 shadow-sm rounded-xl">
+          <CardContent className="p-3">
+            <h3 className="text-sm font-semibold text-gray-800 mb-2 uppercase tracking-wide">
+              Filtros del mapa
+            </h3>
+            <div className="divide-y divide-gray-100">
+              {Object.entries(filters).map(([key, value]) => (
+                <label
+                  key={key}
+                  className="flex items-center justify-between py-2 cursor-pointer hover:bg-blue-50/60 rounded-md transition-all px-1"
+                >
+                  <span className="text-xs capitalize text-gray-700">
+                    {key.replace(/([A-Z])/g, ' $1').trim()}
+                  </span>
+                  <input
+                    type="checkbox"
+                    checked={value}
+                    onChange={() => toggleFilter(key as keyof Filters)}
+                    className="h-3.5 w-3.5 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                  />
+                </label>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+
+
+            {/* 🏙️ Top barrios turísticos */}
+            <div className="pt-2">
+              <TopBarriosTuristicos />
             </div>
           </div>
+        </div>
         </div>
       </main>
 
@@ -285,6 +294,7 @@ const TouristMapLayout: React.FC = () => {
                   </Button>
                 </div>
               </div>
+              <TopBarriosTuristicos />
             </div>
           </div>
         </div>
