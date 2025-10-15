@@ -2,6 +2,7 @@
   "pages": {
     "/page": [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "static/chunks/3aeaf_next_dist_faf4d548._.js",
       "static/chunks/Documents_CURSOS_B_ACTIVA_Hackato25_git_TouristMap_app_favicon_ico_mjs_fe7866ee._.js",
       "static/chunks/[root-of-the-server]__600012bb._.css",
@@ -19,6 +20,8 @@
       "static/chunks/Documents_CURSOS_B_ACTIVA_Hackato25_git_TouristMap_a0ff3932._.js",
       "static/chunks/turbopack-Documents_CURSOS_B_ACTIVA_Hackato25_git_TouristMap_edfd464c._.js"
 =======
+=======
+>>>>>>> Stashed changes
       "static/chunks/node_modules_next_dist_8db7fb1f._.js",
       "static/chunks/app_favicon_ico_mjs_e98bdb63._.js",
       "static/chunks/[root-of-the-server]__28bc9c2a._.css",
@@ -36,6 +39,9 @@
       "static/chunks/node_modules_@swc_helpers_cjs_b3dc30d6._.js",
       "static/chunks/_a0ff3932._.js",
       "static/chunks/turbopack-_cdba956c._.js"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     ]
   }
