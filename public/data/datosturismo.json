@@ -1,0 +1,192 @@
+[
+  {
+    "codi_barri": "01",
+    "nom_barri": "El Raval",
+    "codi_districte": "01",
+    "nom_districte": "Ciutat Vella",
+    "poblacio_2024": 45000,
+    "densitat_hab_km2": 32000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 12000,
+        "febrer": 15000,
+        "març": 18000,
+        "abril": 22000,
+        "maig": 28000,
+        "juny": 35000,
+        "juliol": 42000,
+        "agost": 45000,
+        "setembre": 38000,
+        "octubre": 25000,
+        "novembre": 18000,
+        "desembre": 14000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "15%",
+        "febrer": "18%",
+        "març": "22%",
+        "abril": "28%",
+        "maig": "35%",
+        "juny": "42%",
+        "juliol": "52%",
+        "agost": "58%",
+        "setembre": "45%",
+        "octubre": "32%",
+        "novembre": "22%",
+        "desembre": "18%"
+      }
+    }
+  },
+  {
+    "codi_barri": "02",
+    "nom_barri": "El Gòtic",
+    "codi_districte": "01",
+    "nom_districte": "Ciutat Vella",
+    "poblacio_2024": 32000,
+    "densitat_hab_km2": 28000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 15000,
+        "febrer": 18000,
+        "març": 22000,
+        "abril": 28000,
+        "maig": 35000,
+        "juny": 42000,
+        "juliol": 48000,
+        "agost": 52000,
+        "setembre": 45000,
+        "octubre": 32000,
+        "novembre": 22000,
+        "desembre": 18000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "18%",
+        "febrer": "22%",
+        "març": "28%",
+        "abril": "35%",
+        "maig": "42%",
+        "juny": "52%",
+        "juliol": "62%",
+        "agost": "68%",
+        "setembre": "58%",
+        "octubre": "42%",
+        "novembre": "28%",
+        "desembre": "22%"
+      }
+    }
+  },
+  {
+    "codi_barri": "03",
+    "nom_barri": "La Barceloneta",
+    "codi_districte": "01",
+    "nom_districte": "Ciutat Vella",
+    "poblacio_2024": 15000,
+    "densitat_hab_km2": 18000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 8000,
+        "febrer": 10000,
+        "març": 12000,
+        "abril": 15000,
+        "maig": 20000,
+        "juny": 25000,
+        "juliol": 30000,
+        "agost": 32000,
+        "setembre": 28000,
+        "octubre": 20000,
+        "novembre": 12000,
+        "desembre": 9000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "12%",
+        "febrer": "15%",
+        "març": "18%",
+        "abril": "22%",
+        "maig": "28%",
+        "juny": "35%",
+        "juliol": "42%",
+        "agost": "48%",
+        "setembre": "38%",
+        "octubre": "28%",
+        "novembre": "18%",
+        "desembre": "15%"
+      }
+    }
+  },
+  {
+    "codi_barri": "04",
+    "nom_barri": "Sant Pere, Santa Caterina i la Ribera",
+    "codi_districte": "01",
+    "nom_districte": "Ciutat Vella",
+    "poblacio_2024": 12000,
+    "densitat_hab_km2": 15000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 5000,
+        "febrer": 6000,
+        "març": 8000,
+        "abril": 10000,
+        "maig": 12000,
+        "juny": 15000,
+        "juliol": 18000,
+        "agost": 20000,
+        "setembre": 16000,
+        "octubre": 12000,
+        "novembre": 8000,
+        "desembre": 6000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "8%",
+        "febrer": "10%",
+        "març": "12%",
+        "abril": "15%",
+        "maig": "18%",
+        "juny": "22%",
+        "juliol": "28%",
+        "agost": "32%",
+        "setembre": "25%",
+        "octubre": "18%",
+        "novembre": "12%",
+        "desembre": "10%"
+      }
+    }
+  },
+  {
+    "codi_barri": "05",
+    "nom_barri": "Fort Pienc",
+    "codi_districte": "02",
+    "nom_districte": "Eixample",
+    "poblacio_2024": 25000,
+    "densitat_hab_km2": 22000,
+    "turisme_mensual": {
+      "turistes_absolut_districte_simulat": {
+        "gener": 20000,
+        "febrer": 25000,
+        "març": 30000,
+        "abril": 35000,
+        "maig": 40000,
+        "juny": 45000,
+        "juliol": 50000,
+        "agost": 52000,
+        "setembre": 48000,
+        "octubre": 35000,
+        "novembre": 25000,
+        "desembre": 22000
+      },
+      "turisme_percentatge_districte": {
+        "gener": "25%",
+        "febrer": "32%",
+        "març": "38%",
+        "abril": "45%",
+        "maig": "52%",
+        "juny": "58%",
+        "juliol": "68%",
+        "agost": "72%",
+        "setembre": "62%",
+        "octubre": "45%",
+        "novembre": "32%",
+        "desembre": "28%"
+      }
+    }
+  }
+]

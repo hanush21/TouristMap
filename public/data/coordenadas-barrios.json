@@ -1,0 +1,67 @@
+[
+  {
+    "codi_barri": "01",
+    "nom_barri": "El Raval",
+    "nom_districte": "Ciutat Vella",
+    "coordenadas": {
+      "lat": 41.3809,
+      "lng": 2.1734
+    },
+    "nivel_ruido": 75,
+    "contaminacion_sonora": 68,
+    "densidad_transporte": 85,
+    "hoteles": 45
+  },
+  {
+    "codi_barri": "02",
+    "nom_barri": "El Gòtic",
+    "nom_districte": "Ciutat Vella",
+    "coordenadas": {
+      "lat": 41.3836,
+      "lng": 2.1774
+    },
+    "nivel_ruido": 72,
+    "contaminacion_sonora": 65,
+    "densidad_transporte": 78,
+    "hoteles": 52
+  },
+  {
+    "codi_barri": "03",
+    "nom_barri": "La Barceloneta",
+    "nom_districte": "Ciutat Vella",
+    "coordenadas": {
+      "lat": 41.3804,
+      "lng": 2.1895
+    },
+    "nivel_ruido": 68,
+    "contaminacion_sonora": 62,
+    "densidad_transporte": 72,
+    "hoteles": 38
+  },
+  {
+    "codi_barri": "04",
+    "nom_barri": "Sant Pere, Santa Caterina i la Ribera",
+    "nom_districte": "Ciutat Vella",
+    "coordenadas": {
+      "lat": 41.3851,
+      "lng": 2.1734
+    },
+    "nivel_ruido": 70,
+    "contaminacion_sonora": 64,
+    "densidad_transporte": 75,
+    "hoteles": 28
+  },
+  {
+    "codi_barri": "05",
+    "nom_barri": "Fort Pienc",
+    "nom_districte": "Eixample",
+    "coordenadas": {
+      "lat": 41.3947,
+      "lng": 2.1808
+    },
+    "nivel_ruido": 65,
+    "contaminacion_sonora": 58,
+    "densidad_transporte": 82,
+    "hoteles": 35
+  }
+]
