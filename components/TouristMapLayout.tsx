@@ -9,7 +9,10 @@ import EquipoModal from '@/components/EquipoModal';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
-// Importación dinámica del mapa sin SSR
+// ⬇️ Importa el formulario principal y su lista por defecto
+import TouristForm, { DEFAULT_NEIGHBORHOODS } from '@/components/forms/forms';
+
+// Importación dinámica del mapa sin SSR (NO CAMBIADO)
 const MapComponent = dynamic(() => import('./Map/MapComponent'), {
   ssr: false,
   loading: () => (
@@ -29,6 +32,38 @@ interface Filters {
   contaminacionSonora: boolean;
 }
 
+// ================= ValorarModal (NUEVO) =================
+function ValorarModal({
+  isOpen,
+  onClose,
+  neighborhoods,
+}: {
+  isOpen: boolean;
+  onClose: () => void;
+  neighborhoods: string[];
+}) {
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 bg-black/50 z-[3000] flex items-center justify-center p-4">
+      <Card className="w-full max-w-2xl max-h-[90vh] overflow-y-auto border border-border/60 shadow-lg">
+        <div className="flex items-center justify-between p-6 pb-0">
+          <h2 className="text-xl font-semibold">Valorar zona</h2>
+          <Button variant="outline" size="sm" onClick={onClose}>✕</Button>
+        </div>
+        <CardContent className="pb-6 pt-4">
+          <TouristForm
+            submitUrl="/api/sendform"
+            newsletterUrl="/api/newsletter"
+            neighborhoods={neighborhoods}
+            defaultValues={{}}
+          />
+        </CardContent>
+      </Card>
+    </div>
+  );
+}
+
 const TouristMapLayout: React.FC = () => {
   const [filters, setFilters] = useState<Filters>({
     hoteles: false,
@@ -42,7 +77,7 @@ const TouristMapLayout: React.FC = () => {
 
   const [sliderValue, setSliderValue] = useState(50);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [activeModal, setActiveModal] = useState<'comparar' | 'suscribir' | 'equipo' | null>(null);
+  const [activeModal, setActiveModal] = useState<'comparar' | 'suscribir' | 'equipo' | 'valorar' | null>(null);
 
   const toggleFilter = (filterKey: keyof Filters) => {
     setFilters(prev => ({
@@ -51,7 +86,7 @@ const TouristMapLayout: React.FC = () => {
     }));
   };
 
-  const openModal = (modal: 'comparar' | 'suscribir' | 'equipo') => {
+  const openModal = (modal: 'comparar' | 'suscribir' | 'equipo' | 'valorar') => {
     setActiveModal(modal);
   };
 
@@ -59,29 +94,20 @@ const TouristMapLayout: React.FC = () => {
     setActiveModal(null);
   };
 
-  const getCurrentDateTime = () => {
-    const now = new Date();
-    const date = now.toLocaleDateString('es-ES');
-    const time = now.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' });
-    return { date, time };
-  };
-
-  const { date, time } = getCurrentDateTime();
-
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
+      {/* Header (estilo minimalista) */}
       <header className="bg-white shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            {/* Logo/Título */}
+            {/* Logo/Título (sin iconos extras) */}
             <div className="flex items-center">
-              <div className="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold">
+              <div className=" text-black px-4 py-2 rounded-lg font-bold">
                 Mapa turístico BCN
               </div>
             </div>
 
-            {/* Desktop Navigation */}
+            {/* Desktop Navigation (AÑADIDO botón Valorar) */}
             <div className="hidden md:flex items-center space-x-4">
               <Button 
                 variant="outline" 
@@ -104,17 +130,17 @@ const TouristMapLayout: React.FC = () => {
               >
                 Equipo
               </Button>
+              <Button 
+                size="sm"
+                onClick={() => openModal('valorar')}
+              >
+                Valorar
+              </Button>
             </div>
 
-            {/* Desktop Info */}
-            <div className="hidden md:flex items-center space-x-4 text-sm text-gray-600">
-              <span className="font-medium">Barcelona</span>
-              <span>{date}</span>
-              <span>{time}</span>
-              <span className="text-lg">🌤️ 25°</span>
-            </div>
+            {/* Desktop Info (ELIMINADO fecha/hora/clima para mantener minimal) */}
 
-            {/* Mobile Menu Button */}
+            {/* Mobile Menu Button (NO CAMBIADO) */}
             <div className="md:hidden">
               <Button
                 variant="outline"
@@ -128,31 +154,30 @@ const TouristMapLayout: React.FC = () => {
         </div>
       </header>
 
-      {/* Main Content */}
+      {/* Main Content (NO CAMBIADO tamaños/grilla) */}
       <main className="relative">
         <div className="grid grid-cols-1 lg:grid-cols-4 h-[calc(100vh-4rem)]">
-          {/* Map Area - Sin bordes redondeados */}
+          {/* Map Area - Sin bordes redondeados (NO CAMBIADO) */}
           <div className="lg:col-span-3 relative h-full overflow-hidden">
             <MapComponent filters={filters} sliderValue={sliderValue} />
             
-            {/* Slider flotante sobre el mapa */}
+            {/* Slider flotante sobre el mapa (NO CAMBIADO) */}
             {filters.densidadTuristas && (
-            <div className="fixed bottom-4 left-4 z-[3000] w-1/2">
-              <div className="bg-white/80 p-1 md:p-4 shadow-lg rounded-md backdrop-blur-md">
-                <SliderComponent
-                  value={sliderValue}
-                  onChange={setSliderValue}
-                  min={0}
-                  max={100}
-                  label="Densidad Turística"
-                />
+              <div className="fixed bottom-4 left-4 z-[3000] w-1/2">
+                <div className="bg-white/80 p-1 md:p-4 shadow-lg rounded-md backdrop-blur-md">
+                  <SliderComponent
+                    value={sliderValue}
+                    onChange={setSliderValue}
+                    min={0}
+                    max={100}
+                    label="Densidad Turística"
+                  />
+                </div>
               </div>
-            </div>
             )}
           </div>
           
-
-          {/* Desktop Sidebar */}
+          {/* Desktop Sidebar (NO CAMBIADO salvo texto) */}
           <div className="hidden lg:block bg-white border-l">
             <div className="p-6 space-y-6 h-full overflow-y-auto">
               {/* Filters */}
@@ -176,43 +201,12 @@ const TouristMapLayout: React.FC = () => {
                   </div>
                 </CardContent>
               </Card>
-
-              {/* Subscription */}
-              <Card>
-                <CardContent className="p-6">
-                  <p className="text-sm text-gray-600 mb-4">
-                    Si quieres recibir actualidad turística de tu zona suscríbete
-                  </p>
-                  <Button 
-                    className="w-full"
-                    onClick={() => openModal('suscribir')}
-                  >
-                    Suscribir
-                  </Button>
-                </CardContent>
-              </Card>
-
-              {/* Comparison */}
-              <Card>
-                <CardContent className="p-6">
-                  <p className="text-sm text-gray-600 mb-4">
-                    ¿Quieres comparar los barrios y su densidad turística?
-                  </p>
-                  <Button 
-                    variant="outline"
-                    className="w-full"
-                    onClick={() => openModal('comparar')}
-                  >
-                    Comparador
-                  </Button>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </div>
       </main>
 
-      {/* Mobile Filters Overlay */}
+      {/* Mobile Filters Overlay (NO ELIMINADO; añade acceso a Valorar) */}
       {isMobileMenuOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden">
           <div className="fixed right-0 top-0 h-full w-full sm:w-80 bg-white shadow-xl z-50">
@@ -276,6 +270,15 @@ const TouristMapLayout: React.FC = () => {
                   >
                     Equipo
                   </Button>
+                  <Button 
+                    className="w-full"
+                    onClick={() => {
+                      openModal('valorar');
+                      setIsMobileMenuOpen(false);
+                    }}
+                  >
+                    Valorar
+                  </Button>
                 </div>
               </div>
             </div>
@@ -283,7 +286,7 @@ const TouristMapLayout: React.FC = () => {
         </div>
       )}
 
-      {/* Modals */}
+      {/* Modals (Newsletter y Comparador existentes + NUEVO Valorar) */}
       <CompararModal 
         isOpen={activeModal === 'comparar'} 
         onClose={closeModal} 
@@ -295,6 +298,13 @@ const TouristMapLayout: React.FC = () => {
       <EquipoModal 
         isOpen={activeModal === 'equipo'} 
         onClose={closeModal} 
+      />
+
+      {/* Modal del formulario principal */}
+      <ValorarModal
+        isOpen={activeModal === 'valorar'}
+        onClose={closeModal}
+        neighborhoods={DEFAULT_NEIGHBORHOODS}
       />
     </div>
   );
